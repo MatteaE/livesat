@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zulmart (TJ)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="toggle_contours()">Toggle contours</button>
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/zulmart/v1/2023-02-21_ls.tif" method="get">
+        <button>Download 16-bit RGB Geotiff</button>
+    </form>
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/zulmart/v2/2023-02-21_ls_pan.tif" method="get">
+        <button>Download 8-bit grayscale Geotiff</button>
+    </form>
+    
+    <p>
+      <div id="img_title">Zulmart (TJ) -- Landsat 8/9 -- 21 February 2023</div>
+    </p>
+
+    <p>
+    <img src="../imagery/zulmart/v3/2023-02-21_ls.jpg" alt="" style="width:350px;">
+    </p>
+
+    <p>
+    <button onclick="prev()">Older</button>
+    <button onclick="next()">Newer</button>
+    </p>
+    
+    <p>
+    Go to: <a href="abramov.html">Abramov (KG)</a>&nbsp;·&nbsp;<a href="batysh_sook.html">Batysh Sook (KG)</a>&nbsp;·&nbsp;<a href="gl354.html">Glacier #354 (KG)</a>&nbsp;·&nbsp;<a href="gl457.html">Glacier #457 (TJ)</a>&nbsp;·&nbsp;<a href="golubin.html">Golubin (KG)</a>&nbsp;·&nbsp;<a href="grigoriev.html">Grigoriev (KG)</a>&nbsp;·&nbsp;<a href="yakarcha.html">Yakarcha (TJ)</a>&nbsp;·&nbsp;<a><b>Zulmart (TJ)</b></a>
+    </p>
+
+    <script>
+        var img_basedir = "../imagery/zulmart"
+        var img_names = ["2023-02-21_ls.jpg"]
+        var img_titles = ["Zulmart (TJ) -- Landsat 8/9 -- 21 February 2023"]
+    </script>
+    <script src="script_generic.js"></script>
+</body>
+</html>
+

@@ -1,8 +1,5 @@
-var img_basedir = "imagery/abramov"
-var img_names = ["2023-02-20_ls.jpg", "2023-02-20_s2.jpg"]
-
-
 var imgTag = document.querySelector("img")
+var imgTitle = document.getElementById("img_title")
 var geotiff16 = document.getElementById("geotiff16_dl")
 var geotiff8 = document.getElementById("geotiff8_dl")
 
@@ -24,6 +21,7 @@ function next() {
         count = 0
     }
     imgTag.src = img_set[count]
+    imgTitle.innerHTML = img_titles[count]
     geotiff16.action = geotiff16_set[count]
     geotiff8.action = geotiff8_set[count]
 }
@@ -36,6 +34,7 @@ function prev() {
         count = img_set.length - 1
     }
     imgTag.src = img_set[count]
+    imgTitle.innerHTML = img_titles[count]
     geotiff16.action = geotiff16_set[count]
     geotiff8.action = geotiff8_set[count]
 }
