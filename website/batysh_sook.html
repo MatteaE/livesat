@@ -10,10 +10,10 @@
 <body>
 
     <button onclick="toggle_contours()">Toggle contours</button>
-    <form id="geotiff16_dl" style="display:inline" action="../imagery/batysh_sook/v1/2023-02-21_s2.tif" method="get">
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/batysh_sook/v1/2023-02-23_ls.tif" method="get">
         <button>Download 16-bit RGB Geotiff</button>
     </form>
-    <form id="geotiff8_dl" style="display:inline" action="../imagery/batysh_sook/v2/2023-02-21_s2_pan.tif" method="get">
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/batysh_sook/v2/2023-02-23_ls_pan.tif" method="get">
         <button>Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
@@ -22,26 +22,26 @@
 
     
     <p>
-      <div id="img_title">Batysh Sook (KG) -- Sentinel-2 -- 21 February 2023</div>
-    </p>
-
-    <p>
-    <img src="../imagery/batysh_sook/v3/2023-02-21_s2.jpg" alt="" style="width:228px;">
-    </p>
-
-    <p>
-    <button onclick="prev()">Older</button>
-    <button onclick="next()">Newer</button>
+      <div id="img_title"><b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;23 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b></div>
     </p>
     
     <p>
-    Go to: <a href="abramov.html">Abramov (KG)</a>&nbsp;·&nbsp;<a><b>Batysh Sook (KG)</b></a>&nbsp;·&nbsp;<a href="gl354.html">Glacier #354 (KG)</a>&nbsp;·&nbsp;<a href="gl457.html">Glacier #457 (TJ)</a>&nbsp;·&nbsp;<a href="golubin.html">Golubin (KG)</a>&nbsp;·&nbsp;<a href="grigoriev.html">Grigoriev (KG)</a>&nbsp;·&nbsp;<a href="yakarcha.html">Yakarcha (TJ)</a>&nbsp;·&nbsp;<a href="zulmart.html">Zulmart (TJ)</a>
+      <button id="btn_prev" onclick="prev()">Older image</button>
+      <button id="btn_next" onclick="next()" disabled>Newer image</button>
+    </p>
+
+    <p>
+    <img src="../imagery/batysh_sook/v3/2023-02-23_ls.jpg" alt="" style="width:179px;">
+    </p>
+    
+    <p>
+    Go to: <a href="abramov.html">Abramov (KG)</a>&nbsp;<b>·</b>&nbsp;<a><b>Batysh Sook (KG)</b></a>&nbsp;<b>·</b>&nbsp;<a href="gl354.html">Glacier #354 (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="gl457.html">Glacier #457 (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="golubin.html">Golubin (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="grigoriev.html">Grigoriev (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="yakarcha.html">Yakarcha (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="zulmart.html">Zulmart (TJ)</a>
     </p>
 
     <script>
         var img_basedir = "../imagery/batysh_sook"
-        var img_names = ["2023-02-11_s2.jpg", "2023-02-15_ls.jpg", "2023-02-16_ls.jpg", "2023-02-16_s2.jpg", "2023-02-21_s2.jpg"]
-        var img_titles = ["Batysh Sook (KG) -- Sentinel-2 -- 11 February 2023", "Batysh Sook (KG) -- Landsat 8/9 -- 15 February 2023", "Batysh Sook (KG) -- Landsat 8/9 -- 16 February 2023", "Batysh Sook (KG) -- Sentinel-2 -- 16 February 2023", "Batysh Sook (KG) -- Sentinel-2 -- 21 February 2023"]
+        var img_names = ["2023-02-11_s2.jpg", "2023-02-15_ls.jpg", "2023-02-16_ls.jpg", "2023-02-16_s2.jpg", "2023-02-21_s2.jpg", "2023-02-23_ls.jpg"]
+        var img_titles = ["<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;15 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;23 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>"]
     </script>
     <script src="script_generic.js"></script>
 </body>
