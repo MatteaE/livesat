@@ -1,56 +1,47 @@
-Started at 2023-03-04 20:17:11 +0100
+Started at 2023-03-07 09:04:33 +0100
 Reading locations file...
 Processing Sentinel-2...
 6 tiles to examine...
 Checking Sentinel-2 tile 1 of 6 
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+No scenes found. Moving on...
 Checking Sentinel-2 tile 2 of 6 
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Nope. Moving to the next location...
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Nope. Moving to the next location...
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Nope. Moving to the next location...
 Checking Sentinel-2 tile 3 of 6 
-No scenes found. Moving on...
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 4 of 6 
-No scenes found. Moving on...
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 5 of 6 
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 6 of 6 
-No scenes found. Moving on...
+Checking for data... Nope. Moving to the next location...
 Processing Landsat 8/9...
 Looking for Landsat scenes covering abramov...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 39.621 71.552 --start 2023/03/02 --end 2023/03/04 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 39.621 71.552 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
 None found over the period.
 Looking for Landsat scenes covering batysh_sook...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 41.786 77.75 --start 2023/03/02 --end 2023/03/04 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
-1 scene(s) found, including uninteresting ones... 1 excluding them.
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 41.786 77.75 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+None found over the period.
 Looking for Landsat scenes covering gl354...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 41.793 78.161 --start 2023/03/02 --end 2023/03/04 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
-1 scene(s) found, including uninteresting ones... 1 excluding them.
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 41.793 78.161 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+None found over the period.
 Looking for Landsat scenes covering gl457...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 37.397 72.828 --start 2023/03/02 --end 2023/03/04 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 37.397 72.828 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
 None found over the period.
 Looking for Landsat scenes covering golubin...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 42.457 74.496 --start 2023/03/02 --end 2023/03/04 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
-1 scene(s) found, including uninteresting ones... 0 excluding them.
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 42.457 74.496 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+None found over the period.
 Looking for Landsat scenes covering grigoriev...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 41.965 77.916 --start 2023/03/02 --end 2023/03/04 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
-1 scene(s) found, including uninteresting ones... 1 excluding them.
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 41.965 77.916 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+None found over the period.
 Looking for Landsat scenes covering yakarcha...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 38.984 68.558 --start 2023/03/02 --end 2023/03/04 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 38.984 68.558 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
 None found over the period.
 Looking for Landsat scenes covering zulmart...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 38.866 73 --start 2023/03/02 --end 2023/03/04 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 38.866 73 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
 None found over the period.
-
-We have 1 unique scenes to process.
-Working on LC81480312023063LGN00 (1/1)...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Finished at 2023-03-04 20:20:57 +0100
+Finished at 2023-03-07 09:06:50 +0100

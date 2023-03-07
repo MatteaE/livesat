@@ -10,10 +10,10 @@
 <body>
 
     <button onclick="toggle_contours()">Toggle contours</button>
-    <form id="geotiff16_dl" style="display:inline" action="../imagery/yakarcha/v1/2023-03-02_s2.tif" method="get">
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/yakarcha/v1/2023-03-05_s2.tif" method="get">
         <button>Download 16-bit RGB Geotiff</button>
     </form>
-    <form id="geotiff8_dl" style="display:inline" action="../imagery/yakarcha/v2/2023-03-02_s2_pan.tif" method="get">
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/yakarcha/v2/2023-03-05_s2_pan.tif" method="get">
         <button>Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
@@ -22,7 +22,7 @@
 
     
     <p>
-      <div id="img_title"><b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;02 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
+      <div id="img_title"><b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;05 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
     </p>
     
     <p>
@@ -31,7 +31,7 @@
     </p>
 
     <p>
-    <img src="../imagery/yakarcha/v3/2023-03-02_s2.jpg" alt="" style="width:500px;">
+    <img src="../imagery/yakarcha/v3/2023-03-05_s2.jpg" alt="" style="width:500px;">
     </p>
     
     <p>
@@ -40,8 +40,8 @@
 
     <script>
         var img_basedir = "../imagery/yakarcha"
-        var img_names = ["2023-02-10_ls.jpg", "2023-02-10_s2.jpg", "2023-02-13_s2.jpg", "2023-02-15_s2.jpg", "2023-02-18_ls.jpg", "2023-02-20_s2.jpg", "2023-02-25_s2.jpg", "2023-02-26_ls.jpg", "2023-02-28_s2.jpg", "2023-03-02_s2.jpg"]
-        var img_titles = ["<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;10 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;10 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;13 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;15 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;18 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;20 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;25 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;02 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
+        var img_names = ["2023-02-10_ls.jpg", "2023-02-10_s2.jpg", "2023-02-13_s2.jpg", "2023-02-15_s2.jpg", "2023-02-18_ls.jpg", "2023-02-20_s2.jpg", "2023-02-25_s2.jpg", "2023-02-26_ls.jpg", "2023-02-28_s2.jpg", "2023-03-02_s2.jpg", "2023-03-05_s2.jpg"]
+        var img_titles = ["<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;10 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;10 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;13 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;15 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;18 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;20 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;25 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;02 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;05 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
     </script>
     <script src="script_generic.js"></script>
 </body>
