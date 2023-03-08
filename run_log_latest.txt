@@ -1,9 +1,12 @@
-Started at 2023-03-07 09:04:33 +0100
+Started at 2023-03-08 09:21:52 +0100
 Reading locations file...
 Processing Sentinel-2...
 6 tiles to examine...
 Checking Sentinel-2 tile 1 of 6 
-No scenes found. Moving on...
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 2 of 6 
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Nope. Moving to the next location...
@@ -11,37 +14,98 @@ Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Nope. Moving to the next location...
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Nope. Moving to the next location...
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 3 of 6 
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 4 of 6 
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 5 of 6 
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 6 of 6 
 Checking for data... Nope. Moving to the next location...
+Checking for data... Nope. Moving to the next location...
+Checking for data... Nope. Moving to the next location...
+Checking for data... Nope. Moving to the next location...
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Processing Landsat 8/9...
 Looking for Landsat scenes covering abramov...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 39.621 71.552 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
-None found over the period.
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 39.621 71.552 --start 2023/02/23 --end 2023/03/08 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+2 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering batysh_sook...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 41.786 77.75 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
-None found over the period.
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 41.786 77.75 --start 2023/02/23 --end 2023/03/08 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+4 scene(s) found, including uninteresting ones... 4 excluding them.
 Looking for Landsat scenes covering gl354...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 41.793 78.161 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
-None found over the period.
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 41.793 78.161 --start 2023/02/23 --end 2023/03/08 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+4 scene(s) found, including uninteresting ones... 2 excluding them.
 Looking for Landsat scenes covering gl457...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 37.397 72.828 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
-None found over the period.
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 37.397 72.828 --start 2023/02/23 --end 2023/03/08 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+1 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering golubin...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 42.457 74.496 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
-None found over the period.
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 42.457 74.496 --start 2023/02/23 --end 2023/03/08 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+3 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering grigoriev...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 41.965 77.916 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
-None found over the period.
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 41.965 77.916 --start 2023/02/23 --end 2023/03/08 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+4 scene(s) found, including uninteresting ones... 4 excluding them.
 Looking for Landsat scenes covering yakarcha...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 38.984 68.558 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
-None found over the period.
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 38.984 68.558 --start 2023/02/23 --end 2023/03/08 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+2 scene(s) found, including uninteresting ones... 2 excluding them.
 Looking for Landsat scenes covering zulmart...
-C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 38.866 73 --start 2023/03/05 --end 2023/03/07 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
-None found over the period.
-Finished at 2023-03-07 09:06:50 +0100
+C:\Users\MatteaE\AppData\Local\Microsoft\WindowsApps\python3.10.exe landsatxplore_download.py search --dataset landsat_ot_c2_l1 --location 38.866 73 --start 2023/02/23 --end 2023/03/08 -u Ocirne94 -p scienceforachangingworld_ -o csv -m 9999 
+1 scene(s) found, including uninteresting ones... 1 excluding them.
+
+We have 10 unique scenes to process.
+Working on LC81520332023059LGN00 (1/10)...
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Working on LC81480312023063LGN00 (2/10)...
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Working on LC91490312023062LGN00 (3/10)...
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Working on LC91480312023055LGN00 (4/10)...
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Working on LC81490312023054LGN00 (5/10)...
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Working on LC91510342023060LGN01 (6/10)...
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Working on LC91510302023060LGN01 (7/10)...
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Working on LC91540332023065LGN00 (8/10)...
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Working on LC81540332023057LGN00 (9/10)...
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Working on LC91510332023060LGN01 (10/10)...
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Finished at 2023-03-08 10:20:03 +0100
