@@ -10,10 +10,10 @@
 <body>
 
     <button onclick="toggle_contours()">Toggle contours</button>
-    <form id="geotiff16_dl" style="display:inline" action="../imagery/gl457/v1/2023-03-06_s2.tif" method="get">
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/gl457/v1/2023-03-11_s2.tif" method="get">
         <button>Download 16-bit RGB Geotiff</button>
     </form>
-    <form id="geotiff8_dl" style="display:inline" action="../imagery/gl457/v2/2023-03-06_s2_pan.tif" method="get">
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/gl457/v2/2023-03-11_s2_pan.tif" method="get">
         <button>Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
@@ -22,7 +22,7 @@
 
     
     <p>
-      <div id="img_title"><b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
+      <div id="img_title"><b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
     </p>
     
     <p>
@@ -31,7 +31,7 @@
     </p>
 
     <p>
-    <img src="../imagery/gl457/v3/2023-03-06_s2.jpg" alt="" style="width:500px;">
+    <img src="../imagery/gl457/v3/2023-03-11_s2.jpg" alt="" style="width:500px;">
     </p>
     
     <p>
@@ -40,8 +40,8 @@
 
     <script>
         var img_basedir = "../imagery/gl457"
-        var img_names = ["2023-02-12_s2.jpg", "2023-02-13_ls.jpg", "2023-02-14_s2.jpg", "2023-02-17_s2.jpg", "2023-02-21_ls.jpg", "2023-02-24_s2.jpg", "2023-03-01_ls.jpg", "2023-03-01_s2.jpg", "2023-03-04_s2.jpg", "2023-03-06_s2.jpg"]
-        var img_titles = ["<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;12 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;13 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;14 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;17 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;24 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;01 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;01 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;04 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
+        var img_names = ["2023-02-12_s2.jpg", "2023-02-13_ls.jpg", "2023-02-14_s2.jpg", "2023-02-17_s2.jpg", "2023-02-21_ls.jpg", "2023-02-24_s2.jpg", "2023-03-01_ls.jpg", "2023-03-01_s2.jpg", "2023-03-04_s2.jpg", "2023-03-06_s2.jpg", "2023-03-11_s2.jpg"]
+        var img_titles = ["<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;12 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;13 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;14 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;17 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;24 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;01 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;01 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;04 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Glacier #457 (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
     </script>
     <script src="script_generic.js"></script>
 </body>
