@@ -1,8 +1,8 @@
-abramov      2023-03-27  s2
-batysh_sook  2023-03-28  s2
+abramov      2023-04-11  s2
+batysh_sook  2023-04-12  ls
 gl354        2023-03-28  s2
 gl457        2023-03-26  s2
 golubin      2023-03-26  s2
-grigoriev    2023-03-28  s2
-yakarcha     2023-03-27  s2
+grigoriev    2023-04-12  ls
+yakarcha     2023-04-11  s2
 zulmart      2023-03-25  ls

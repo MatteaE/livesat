@@ -10,10 +10,10 @@
 <body>
 
     <button onclick="toggle_contours()">Toggle contours</button>
-    <form id="geotiff16_dl" style="display:inline" action="../imagery/batysh_sook/v1/2023-03-28_s2.tif" method="get">
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/batysh_sook/v1/2023-04-12_ls.tif" method="get">
         <button>Download 16-bit RGB Geotiff</button>
     </form>
-    <form id="geotiff8_dl" style="display:inline" action="../imagery/batysh_sook/v2/2023-03-28_s2_pan.tif" method="get">
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/batysh_sook/v2/2023-04-12_ls_pan.tif" method="get">
         <button>Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
@@ -22,7 +22,7 @@
 
     
     <p>
-      <div id="img_title"><b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
+      <div id="img_title"><b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;12 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b></div>
     </p>
     
     <p>
@@ -31,7 +31,7 @@
     </p>
 
     <p>
-    <img src="../imagery/batysh_sook/v3/2023-03-28_s2.jpg" alt="" style="width:228px;">
+    <img src="../imagery/batysh_sook/v3/2023-04-12_ls.jpg" alt="" style="width:179px;">
     </p>
     
     <p>
@@ -40,8 +40,8 @@
 
     <script>
         var img_basedir = "../imagery/batysh_sook"
-        var img_names = ["2023-02-26_s2.jpg", "2023-03-03_ls.jpg", "2023-03-03_s2.jpg", "2023-03-04_ls.jpg", "2023-03-11_ls.jpg", "2023-03-27_ls.jpg", "2023-03-28_ls.jpg", "2023-03-28_s2.jpg"]
-        var img_titles = ["<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 February 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;04 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;27 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
+        var img_names = ["2023-03-27_ls.jpg", "2023-03-28_ls.jpg", "2023-03-28_s2.jpg", "2023-04-12_ls.jpg"]
+        var img_titles = ["<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;27 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 March 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Batysh Sook (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;12 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>"]
     </script>
     <script src="script_generic.js"></script>
 </body>
