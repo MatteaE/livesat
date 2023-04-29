@@ -29,8 +29,9 @@ function next() {
 		geotiff8.action = geotiff8_set[count]
 		if (count == img_set.length - 1) {
 			btn_next.disabled = true
+		}
 		// Re-enable prev button if we are moving away from first image.
-		} else if (count == 1) {
+		if (count == 1) {
 			btn_prev.disabled = false
 		}
 		
@@ -54,8 +55,9 @@ function prev() {
 		geotiff8.action = geotiff8_set[count]
 		if (count == 0) {
 			btn_prev.disabled = true
+		}
 		// Re-enable next button if we are moving away from last image.
-		} else if (count == img_set.length - 2) {
+		if (count == img_set.length - 2) {
 			btn_next.disabled = false
 		}
 	// This else should happen only if something has gone very wrong
