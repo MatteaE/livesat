@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turgen Ak-Suu (KG)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="toggle_contours()">Toggle contours</button>
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/turgen_ak-suu/v1/2023-04-27_s2.tif" method="get">
+        <button>Download 16-bit RGB Geotiff</button>
+    </form>
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/turgen_ak-suu/v2/2023-04-27_s2_pan.tif" method="get">
+        <button>Download 8-bit grayscale Geotiff</button>
+    </form>
+    <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
+        <button>Go back to homepage</button>
+    </form>
+
+    
+    <p>
+      <div id="img_title"><b>Turgen Ak-Suu (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;27 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
+    </p>
+    
+    <p>
+      <button id="btn_prev" onclick="prev()" disabled>Older image</button>
+      <button id="btn_next" onclick="next()" disabled>Newer image</button>
+    </p>
+
+    <p>
+    <img src="../imagery/turgen_ak-suu/v3/2023-04-27_s2.jpg" alt="" style="width:550px;">
+    </p>
+    
+    <p>
+    Go to: <a href="abramov.html">Abramov (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="barkrak.html">Barkrak (UZ)</a>&nbsp;<b>·</b>&nbsp;<a href="batysh_sook.html">Batysh Sook (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="gl354.html">Glacier #354 (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="gl457.html">Glacier #457 (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="gl599.html">Glacier #599 (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="golubin.html">Golubin (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="grigoriev.html">Grigoriev (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="kara-batkak.html">Kara-Batkak (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="sary-tor.html">Sary-Tor (KG)</a>&nbsp;<b>·</b>&nbsp;<a><b>Turgen Ak-Suu (KG)</b></a>&nbsp;<b>·</b>&nbsp;<a href="tuyuksu.html">Tuyuksu (KZ)</a>&nbsp;<b>·</b>&nbsp;<a href="yakarcha.html">Yakarcha (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="zulmart.html">Zulmart (TJ)</a>
+    </p>
+
+    <script>
+        var img_basedir = "../imagery/turgen_ak-suu"
+        var img_names = ["2023-04-27_s2.jpg"]
+        var img_titles = ["<b>Turgen Ak-Suu (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;27 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
+    </script>
+    <script src="script_generic.js"></script>
+</body>
+</html>
+
