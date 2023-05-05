@@ -1,31 +1,183 @@
-Started at 2023-05-03 15:30:29 +0200
+Started at 2023-05-05 10:29:41 +0200
 Reading locations file...
 Processing Sentinel-2...
 9 tiles to examine...
-Checking Sentinel-2 tile 1 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 2 of 9... No new scenes found. Moving on...
+Checking Sentinel-2 tile 1 of 9... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 2 of 9... Checking for data... Nope. Moving to the next location...
 Checking Sentinel-2 tile 3 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 4 of 9... No new scenes found. Moving on...
+Checking Sentinel-2 tile 4 of 9... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 5 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 6 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 7 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 8 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 9 of 9... No new scenes found. Moving on...
+Checking Sentinel-2 tile 6 of 9... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 7 of 9... Checking for data... Nope. Moving to the next location...
+Checking Sentinel-2 tile 8 of 9... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 9 of 9... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Processing Landsat 8/9...
 Looking for Landsat scenes covering abramov... 2 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering barkrak... 1 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering barkrak... None found over the period.
 Looking for Landsat scenes covering batysh_sook... None found over the period.
 Looking for Landsat scenes covering gl354... None found over the period.
-Looking for Landsat scenes covering gl457... None found over the period.
-Looking for Landsat scenes covering gl599... None found over the period.
-Looking for Landsat scenes covering golubin... None found over the period.
+Looking for Landsat scenes covering gl457... 1 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering gl599... 1 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering golubin... 3 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering grigoriev... None found over the period.
 Looking for Landsat scenes covering kara-batkak... None found over the period.
 Looking for Landsat scenes covering sary-tor... None found over the period.
 Looking for Landsat scenes covering turgen_ak-suu... None found over the period.
 Looking for Landsat scenes covering tuyuksu... None found over the period.
-Looking for Landsat scenes covering yakarcha... 1 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering zulmart... None found over the period.
+Looking for Landsat scenes covering yakarcha... None found over the period.
+Looking for Landsat scenes covering zulmart... 1 scene(s) found, including uninteresting ones... 1 excluding them.
 
-No new Landsat scenes to process.
-Finished at 2023-05-03 15:31:11 +0200
+We have 4 unique scenes to process.
+Working on LC91510342023124LGN00 (1/4)...
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Working on LC81500302023125LGN00 (2/4)...
+[1] 2
+[1] "LC81500302023125LGN00"
+              entity_id date_str
+1 LC81540332023121LGN00 20230501
+2 LC91530312023122LGN00 20230502
+3 LC81520332023123LGN00 20230503
+[1] FALSE
+   cloud_cover             entity_id                               display_id ordering_id                       landsat_product_id
+1           47 LC91510342023124LGN00 LC09_L1TP_151034_20230504_20230504_02_T1        None LC09_L1TP_151034_20230504_20230504_02_T1
+11           4 LC81500302023125LGN00 LC08_L1TP_150030_20230505_20230505_02_RT        None LC08_L1TP_150030_20230505_20230505_02_RT
+21           4 LC91510302023124LGN00 LC09_L1TP_151030_20230504_20230504_02_T1        None LC09_L1TP_151030_20230504_20230504_02_T1
+12          72 LC91510332023124LGN00 LC09_L1TP_151033_20230504_20230504_02_T1        None LC09_L1TP_151033_20230504_20230504_02_T1
+        landsat_scene_id acquisition_date collection_category collection_number wrs_path wrs_row nadir.off_nadir roll_angle
+1  LC91510342023124LGN00       2023-05-04 2023-05-01 00:00:00                 2      151      34           NADIR      0.000
+11 LC81500302023125LGN00       2023-05-05                  RT                 2      150      30           NADIR     -0.001
+21 LC91510302023124LGN00       2023-05-04 2023-05-01 00:00:00                 2      151      30           NADIR      0.000
+12 LC91510332023124LGN00       2023-05-04 2023-05-01 00:00:00                 2      151      33           NADIR      0.001
+   date_product_generated land_cloud_cover scene_cloud_cover          start_time           stop_time station_id day.night_indicator
+1     2023-05-04 00:00:00            46.67             46.67 2023-05-04 05:46:45 2023-05-04 05:47:16        LGN                 DAY
+11    2023-05-05 00:00:00             3.58              3.58 2023-05-05 05:38:45 2023-05-05 05:39:16        LGN                 DAY
+21    2023-05-04 00:00:00             3.99              3.99 2023-05-04 05:45:09 2023-05-04 05:45:41        LGN                 DAY
+12    2023-05-04 00:00:00            71.79             71.79 2023-05-04 05:46:21 2023-05-04 05:46:53        LGN                 DAY
+   ground_control_points_model ground_control_points_version geometric_rmse_model geometric_rmse_model_x geometric_rmse_model_y
+1                          297                             5                8.057                  5.918                  5.467
+11                         727                             5                6.639                  4.859                  4.524
+21                         616                             5                7.177                  5.146                  5.002
+12                         120                             5                8.539                  6.467                  5.575
+   image_quality processing_software_version sun_elevation_l0ra sun_azimuth_l0ra tirs_ssm_model     data_type sensor_id satellite
+1              9                 LPGS_16.2.0           62.16508         135.4554            N/A OLI_TIRS_L1TP  OLI_TIRS         9
+11             9                 LPGS_16.2.0           58.72010         143.9678    PRELIMINARY OLI_TIRS_L1TP  OLI_TIRS         8
+21             9                 LPGS_16.2.0           58.48530         144.2983            N/A OLI_TIRS_L1TP  OLI_TIRS         9
+12             9                 LPGS_16.2.0           61.30479         137.8417            N/A OLI_TIRS_L1TP  OLI_TIRS         9
+   panchromatic_lines panchromatic_samples reflective_lines reflective_samples thermal_lines thermal_samples product_map_projection
+1               15921                15681             7961               7841          7961            7841                    UTM
+11              15701                15441             7851               7721          7851            7721                    UTM
+21              15841                15621             7921               7811          7921            7811                    UTM
+12              15881                15661             7941               7831          7941            7831                    UTM
+   utm_zone datum ellipsoid grid_cell_size_panchromatic grid_cell_size_reflective grid_cell_size_thermal
+1        43 WGS84     WGS84                          15                        30                     30
+11       43 WGS84     WGS84                          15                        30                     30
+21       43 WGS84     WGS84                          15                        30                     30
+12       43 WGS84     WGS84                          15                        30                     30
+             bias_parameter_file_name_oli          bias_parameter_file_name_tirs      calibration_parameter_file
+1  LO9BPF20230504052733_20230504061107.01 LT9BPF20230504052242_20230504061158.01 LC09CPF_20230401_20230630_02.01
+11 LO8BPF20230505052109_20230505063249.01 LT8BPF20230427134409_20230427141224.01 LC08CPF_20230401_20230630_02.01
+21 LO9BPF20230504052733_20230504063917.01 LT9BPF20230504052242_20230504061158.01 LC09CPF_20230401_20230630_02.01
+12 LO9BPF20230504052733_20230504061107.01 LT9BPF20230504052242_20230504061158.01 LC09CPF_20230401_20230630_02.01
+                        rlut_file_name scene_center_latitude scene_center_longitude corner_upper_left_latitude corner_upper_left_longitude
+1  LC09RLUT_20220319_20531231_02_09.h5              37.47456               72.54424                   38.50908                    71.15833
+11 LC08RLUT_20150303_20431231_02_01.h5              43.18498               75.88847                   44.24292                    74.45270
+21 LC09RLUT_20220319_20531231_02_09.h5              43.18467               74.36117                   44.23271                    72.88256
+12 LC09RLUT_20220319_20531231_02_09.h5              38.90450               72.97697                   39.94063                    71.57080
+   corner_upper_right_latitude corner_upper_right_longitude corner_lower_left_latitude corner_lower_left_longitude
+1                     38.56655                     73.85444                   36.36131                    71.26673
+11                    44.22001                     77.35234                   42.12239                    74.47132
+21                    44.24942                     75.81666                   42.09457                    72.95518
+12                    39.98938                     74.31946                   37.79781                    71.67235
+   corner_lower_right_latitude corner_lower_right_longitude has_customized_metadata
+1                     36.41450                     73.88685                      NA
+11                    42.10110                     77.27238                      NA
+21                    42.11009                     75.78863                      NA
+12                    37.84299                     74.33966                      NA
+                                                                options                                          selected
+1  {'bulk': True, 'download': True, 'order': False, 'secondary': False} {'bulk': False, 'compare': False, 'order': False}
+11 {'bulk': True, 'download': True, 'order': False, 'secondary': False} {'bulk': False, 'compare': False, 'order': False}
+21 {'bulk': True, 'download': True, 'order': False, 'secondary': False} {'bulk': False, 'compare': False, 'order': False}
+12 {'bulk': True, 'download': True, 'order': False, 'secondary': False} {'bulk': False, 'compare': False, 'order': False}
+                             spatial_bounds
+1  (71.25176, 36.41017, 73.85741, 38.52429)
+11    (74.4699, 42.1125, 77.3351, 44.24168)
+21 (72.94239, 42.11347, 75.80749, 44.24007)
+12   (71.6555, 37.83854, 74.3206, 39.95556)
+                                                                                            spatial_coverage
+1  POLYGON ((71.25176 36.80373, 73.32107 36.41017, 73.85741 38.12967, 71.74003 38.52429, 71.25176 36.80373))
+11       POLYGON ((74.4699 42.5282, 76.71951 42.1125, 77.3351 43.82276, 75.02238 44.24168, 74.4699 42.5282))
+21 POLYGON ((72.94239 42.52669, 75.19205 42.11347, 75.80749 43.82385, 73.49463 44.24007, 72.94239 42.52669))
+12      POLYGON ((71.6555 38.23675, 73.7671 37.83854, 74.3206 39.5559, 72.15749 39.95556, 71.6555 38.23675))
+                                                            temporal_coverage              publish_date location_id
+1  [datetime.datetime(2023, 5, 4, 0, 0), datetime.datetime(2023, 5, 4, 0, 0)] 2023-05-04 03:48:51-05:00           5
+11 [datetime.datetime(2023, 5, 5, 0, 0), datetime.datetime(2023, 5, 5, 0, 0)] 2023-05-05 03:18:39-05:00           6
+21 [datetime.datetime(2023, 5, 4, 0, 0), datetime.datetime(2023, 5, 4, 0, 0)] 2023-05-04 03:48:47-05:00           7
+12 [datetime.datetime(2023, 5, 4, 0, 0), datetime.datetime(2023, 5, 4, 0, 0)] 2023-05-04 03:51:00-05:00          14
+[1] 2
+[1] 4
+
+We have 4 unique scenes to process.
+   cloud_cover             entity_id                               display_id ordering_id                       landsat_product_id
+11           4 LC81500302023125LGN00 LC08_L1TP_150030_20230505_20230505_02_RT        None LC08_L1TP_150030_20230505_20230505_02_RT
+        landsat_scene_id acquisition_date collection_category collection_number wrs_path wrs_row nadir.off_nadir roll_angle
+11 LC81500302023125LGN00       2023-05-05                  RT                 2      150      30           NADIR     -0.001
+   date_product_generated land_cloud_cover scene_cloud_cover          start_time           stop_time station_id day.night_indicator
+11    2023-05-05 00:00:00             3.58              3.58 2023-05-05 05:38:45 2023-05-05 05:39:16        LGN                 DAY
+   ground_control_points_model ground_control_points_version geometric_rmse_model geometric_rmse_model_x geometric_rmse_model_y
+11                         727                             5                6.639                  4.859                  4.524
+   image_quality processing_software_version sun_elevation_l0ra sun_azimuth_l0ra tirs_ssm_model     data_type sensor_id satellite
+11             9                 LPGS_16.2.0            58.7201         143.9678    PRELIMINARY OLI_TIRS_L1TP  OLI_TIRS         8
+   panchromatic_lines panchromatic_samples reflective_lines reflective_samples thermal_lines thermal_samples product_map_projection
+11              15701                15441             7851               7721          7851            7721                    UTM
+   utm_zone datum ellipsoid grid_cell_size_panchromatic grid_cell_size_reflective grid_cell_size_thermal
+11       43 WGS84     WGS84                          15                        30                     30
+             bias_parameter_file_name_oli          bias_parameter_file_name_tirs      calibration_parameter_file
+11 LO8BPF20230505052109_20230505063249.01 LT8BPF20230427134409_20230427141224.01 LC08CPF_20230401_20230630_02.01
+                        rlut_file_name scene_center_latitude scene_center_longitude corner_upper_left_latitude corner_upper_left_longitude
+11 LC08RLUT_20150303_20431231_02_01.h5              43.18498               75.88847                   44.24292                     74.4527
+   corner_upper_right_latitude corner_upper_right_longitude corner_lower_left_latitude corner_lower_left_longitude
+11                    44.22001                     77.35234                   42.12239                    74.47132
+   corner_lower_right_latitude corner_lower_right_longitude has_customized_metadata
+11                     42.1011                     77.27238                      NA
+                                                                options                                          selected
+11 {'bulk': True, 'download': True, 'order': False, 'secondary': False} {'bulk': False, 'compare': False, 'order': False}
+                          spatial_bounds
+11 (74.4699, 42.1125, 77.3351, 44.24168)
+                                                                                      spatial_coverage
+11 POLYGON ((74.4699 42.5282, 76.71951 42.1125, 77.3351 43.82276, 75.02238 44.24168, 74.4699 42.5282))
+                                                            temporal_coverage              publish_date location_id
+11 [datetime.datetime(2023, 5, 5, 0, 0), datetime.datetime(2023, 5, 5, 0, 0)] 2023-05-05 03:18:39-05:00           6
+[1] "LC81500302023125LGN00"
+Working on LC81500302023125LGN00 (2/4)...
+[1] "C:\\\"Program Files\"\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\python3.10.exe D:\\EnricoMattea\\livesat\\src\\land "C:\\\"Program Files\"\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\python3.10.exe D:\\EnricoMattea\\livesat\\src\\landsatxpl
+[1] "C:\\\"Program Files\"\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\python3.10.exe D:\\EnricoMattea\\livesat\\src\\land "C:\\\"Program Files\"\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\python3.10.exe D:\\EnricoMattea\\livesat\\src\\landsatxpl
+Working on LC91510302023124LGN00 (3/4)...
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Working on LC91510332023124LGN00 (4/4)...
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+[1] 4
+Working on LC81500302023125LGN00 (2/4)...
+[1] 2
+Working on LC81500302023125LGN00 (2/4)...
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Writing Sentinel-2 tile info file...
+Writing Landsat 8/9 tile info file...
+              entity_id date_str
+1 LC81540332023121LGN00 20230501
+2 LC91530312023122LGN00 20230502
+3 LC81520332023123LGN00 20230503
+4 LC91510342023124LGN00 20230504
+6 LC91510302023124LGN00 20230504
+7 LC91510332023124LGN00 20230504
+5 LC81500302023125LGN00 20230505
+Finished at 2023-05-05 13:29:31 +0200
+LGN00 20230504
+6 LC91510302023124LGN00 20230504
+7 LC91510332023124LGN00 20230504
+5 LC81500302023125LGN00 20230505
+Finished at 2023-05-05 13:29:31 +0200
+1510342023124LGN00 20230504
+6 LC91510302023124LGN00 20230504
+7 LC91510332023124LGN00 20230504
+5 LC81500302023125LGN00 20230505
+Finished at 2023-05-05 13:29:31 +0200
