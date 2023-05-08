@@ -1,15 +1,24 @@
-Started at 2023-05-07 15:30:20 +0200
+Started at 2023-05-08 15:30:22 +0200
 Reading locations file...
 Processing Sentinel-2...
 9 tiles to examine...
-Checking Sentinel-2 tile 1 of 9... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking Sentinel-2 tile 2 of 9... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking Sentinel-2 tile 3 of 9... No new scenes found. Moving on...
+Checking Sentinel-2 tile 1 of 9... No new scenes found. Moving on...
+Checking Sentinel-2 tile 2 of 9... No new scenes found. Moving on...
+Checking Sentinel-2 tile 3 of 9... Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 4 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 5 of 9... No new scenes found. Moving on...
+Checking Sentinel-2 tile 5 of 9... Checking for data... Nope. Moving to the next location...
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 6 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 7 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 8 of 9... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 7 of 9... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 8 of 9... No new scenes found. Moving on...
 Checking Sentinel-2 tile 9 of 9... No new scenes found. Moving on...
 Writing Sentinel-2 tile info file...
 Processing Landsat 8/9...
@@ -18,8 +27,8 @@ Looking for Landsat scenes covering barkrak... None found over the period.
 Looking for Landsat scenes covering batysh_sook... 2 scene(s) found, including uninteresting ones... 2 excluding them.
 Looking for Landsat scenes covering gl354... 2 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering gl457... None found over the period.
-Looking for Landsat scenes covering gl599... 2 scene(s) found, including uninteresting ones... 2 excluding them.
-Looking for Landsat scenes covering golubin... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl599... 1 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering golubin... None found over the period.
 Looking for Landsat scenes covering grigoriev... 2 scene(s) found, including uninteresting ones... 2 excluding them.
 Looking for Landsat scenes covering kara-batkak... 3 scene(s) found, including uninteresting ones... 2 excluding them.
 Looking for Landsat scenes covering sary-tor... 1 scene(s) found, including uninteresting ones... 1 excluding them.
@@ -27,26 +36,6 @@ Looking for Landsat scenes covering turgen_ak-suu... 2 scene(s) found, including
 Looking for Landsat scenes covering tuyuksu... 1 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering yakarcha... None found over the period.
 Looking for Landsat scenes covering zulmart... None found over the period.
-
-We have 3 unique scenes to process.
-Working on LC81480312023127LGN00 (1/3)...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Working on LC91490312023126LGN00 (2/3)...
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Working on LC91490302023126LGN00 (3/3)...
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+No new Landsat scenes to process.
 Writing Landsat 8/9 tile info file...
-Finished at 2023-05-07 15:38:45 +0200
+Finished at 2023-05-08 15:34:46 +0200
