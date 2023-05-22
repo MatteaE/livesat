@@ -9,10 +9,10 @@
 <body>
 
     <button onclick="toggle_contours()">Toggle contours</button>
-    <form id="geotiff16_dl" style="display:inline" action="../imagery/abramov/v1/2023-05-16_s2.tif" method="get">
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/abramov/v1/2023-05-21_s2.tif" method="get">
         <button>Download 16-bit RGB Geotiff</button>
     </form>
-    <form id="geotiff8_dl" style="display:inline" action="../imagery/abramov/v2/2023-05-16_s2_pan.tif" method="get">
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/abramov/v2/2023-05-21_s2_pan.tif" method="get">
         <button>Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
@@ -21,7 +21,7 @@
 
     
     <p>
-      <div id="img_title"><b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
+      <div id="img_title"><b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
     </p>
     
     <p>
@@ -30,7 +30,7 @@
     </p>
 
     <p>
-    <img src="../imagery/abramov/v3/2023-05-16_s2.jpg" alt="" style="width:750px;">
+    <img src="../imagery/abramov/v3/2023-05-21_s2.jpg" alt="" style="width:750px;">
     </p>
     
     <p>
@@ -39,8 +39,8 @@
 
     <script>
         var img_basedir = "../imagery/abramov"
-        var img_names = ["2023-04-25_ls.jpg", "2023-04-26_s2.jpg", "2023-04-28_s2.jpg", "2023-05-01_s2.jpg", "2023-05-03_ls.jpg", "2023-05-03_s2.jpg", "2023-05-06_s2.jpg", "2023-05-08_s2.jpg", "2023-05-11_ls.jpg", "2023-05-11_s2.jpg", "2023-05-13_s2.jpg", "2023-05-16_s2.jpg"]
-        var img_titles = ["<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;25 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;01 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;13 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
+        var img_names = ["2023-04-25_ls.jpg", "2023-04-26_s2.jpg", "2023-04-28_s2.jpg", "2023-05-01_s2.jpg", "2023-05-03_ls.jpg", "2023-05-03_s2.jpg", "2023-05-06_s2.jpg", "2023-05-08_s2.jpg", "2023-05-11_ls.jpg", "2023-05-11_s2.jpg", "2023-05-13_s2.jpg", "2023-05-16_s2.jpg", "2023-05-21_s2.jpg"]
+        var img_titles = ["<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;25 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;01 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;13 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Abramov (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
     </script>
     <script src="script_generic.js"></script>
 </body>
