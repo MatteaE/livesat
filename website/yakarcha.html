@@ -9,10 +9,10 @@
 <body>
 
     <button onclick="toggle_contours()">Toggle contours</button>
-    <form id="geotiff16_dl" style="display:inline" action="../imagery/yakarcha/v1/2023-05-24_s2.tif" method="get">
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/yakarcha/v1/2023-05-26_s2.tif" method="get">
         <button>Download 16-bit RGB Geotiff</button>
     </form>
-    <form id="geotiff8_dl" style="display:inline" action="../imagery/yakarcha/v2/2023-05-24_s2_pan.tif" method="get">
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/yakarcha/v2/2023-05-26_s2_pan.tif" method="get">
         <button>Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
@@ -21,7 +21,7 @@
 
     
     <p>
-      <div id="img_title"><b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;24 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
+      <div id="img_title"><b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
     </p>
     
     <p>
@@ -30,7 +30,7 @@
     </p>
 
     <p>
-    <img src="../imagery/yakarcha/v3/2023-05-24_s2.jpg" alt="" style="width:500px;">
+    <img src="../imagery/yakarcha/v3/2023-05-26_s2.jpg" alt="" style="width:500px;">
     </p>
     
     <p>
@@ -39,8 +39,8 @@
 
     <script>
         var img_basedir = "../imagery/yakarcha"
-        var img_names = ["2023-04-26_s2.jpg", "2023-04-29_s2.jpg", "2023-05-01_ls.jpg", "2023-05-01_s2.jpg", "2023-05-04_s2.jpg", "2023-05-06_s2.jpg", "2023-05-09_ls.jpg", "2023-05-09_s2.jpg", "2023-05-11_s2.jpg", "2023-05-14_s2.jpg", "2023-05-16_s2.jpg", "2023-05-17_ls.jpg", "2023-05-19_s2.jpg", "2023-05-21_s2.jpg", "2023-05-24_s2.jpg"]
-        var img_titles = ["<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;29 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;01 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;01 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;04 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;09 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;09 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;14 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;17 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;19 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;24 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
+        var img_names = ["2023-04-26_s2.jpg", "2023-04-29_s2.jpg", "2023-05-01_ls.jpg", "2023-05-01_s2.jpg", "2023-05-04_s2.jpg", "2023-05-06_s2.jpg", "2023-05-09_ls.jpg", "2023-05-09_s2.jpg", "2023-05-11_s2.jpg", "2023-05-14_s2.jpg", "2023-05-16_s2.jpg", "2023-05-17_ls.jpg", "2023-05-19_s2.jpg", "2023-05-21_s2.jpg", "2023-05-24_s2.jpg", "2023-05-26_s2.jpg"]
+        var img_titles = ["<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;29 April 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;01 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;01 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;04 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;09 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;09 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;14 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;17 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;19 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;24 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Yakarcha (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
     </script>
     <script src="script_generic.js"></script>
 </body>
