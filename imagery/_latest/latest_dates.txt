@@ -10,5 +10,5 @@ kara-batkak    2023-05-27  s2
 sary-tor       2023-05-27  s2
 turgen_ak-suu  2023-05-27  s2
 tuyuksu        2023-05-27  s2
-yakarcha       2023-05-26  s2
+yakarcha       2023-05-29  s2
 zulmart        2023-05-28  s2
