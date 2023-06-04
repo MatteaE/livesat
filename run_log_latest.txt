@@ -1,17 +1,5 @@
-Started at 2023-06-04 15:30:19 +0200
+Started at 2023-06-04 16:52:44 +0200
 Reading locations file...
-Processing Sentinel-2...
-9 tiles to examine...
-Checking Sentinel-2 tile 1 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 2 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 3 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 4 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 5 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 6 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 7 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 8 of 9... No new scenes found. Moving on...
-Checking Sentinel-2 tile 9 of 9... No new scenes found. Moving on...
-Writing Sentinel-2 tile info file...
 Processing Landsat 8/9...
 Looking for Landsat scenes covering abramov... 2 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering barkrak... 1 scene(s) found, including uninteresting ones... 1 excluding them.
@@ -28,8 +16,345 @@ Looking for Landsat scenes covering tuyuksu... None found over the period.
 Looking for Landsat scenes covering yakarcha... 1 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering zulmart... None found over the period.
 
-We have 1 unique scenes to process.
-Working on LC81520332023155LGN00 (1/1)...
-landsatxplore failed to download the tile. Moving on to the next one...
-Writing Landsat 8/9 tile info file...
-Finished at 2023-06-04 15:30:51 +0200
+We have 3 unique scenes to process.
+Working on (1/3)...
+NULL
+NULL
+[1] "LC81520332023155LGN00"
+Response [https://ers.cr.usgs.gov/login?redirectUrl=https://ers.cr.usgs.gov/]
+  Date: 2023-06-04 14:55
+  Status: 200
+  Content-Type: text/html; charset=UTF-8
+  Size: 18.5 kB
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self';script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.co...
+        <meta name="viewport" content="width&#x3D;device-width,&#x20;initial-scale&#x3D;1.0">
+<meta name="description" content="Query&#x20;and&#x20;order&#x20;satellite&#x20;images,&#x20;aerial&#x20;photographs,&#x20;and&#x20;cartogra...
+<meta name="keywords" content="U.S.&#x20;Geological&#x20;Survey,USGS,National&#x20;Mapping&#x20;Division,NMD,USA,&#x0A;&#x20;&#x20;&#x20;&#x...
+<meta name="author" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+<meta name="publisher" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+...
+Response [https://ers.cr.usgs.gov/login/]
+  Date: 2023-06-04 14:56
+  Status: 401
+  Content-Type: text/html; charset=UTF-8
+  Size: 18.7 kB
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self';script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.co...
+        <meta name="viewport" content="width&#x3D;device-width,&#x20;initial-scale&#x3D;1.0">
+<meta name="description" content="Query&#x20;and&#x20;order&#x20;satellite&#x20;images,&#x20;aerial&#x20;photographs,&#x20;and&#x20;cartogra...
+<meta name="keywords" content="U.S.&#x20;Geological&#x20;Survey,USGS,National&#x20;Mapping&#x20;Division,NMD,USA,&#x0A;&#x20;&#x20;&#x20;&#x...
+<meta name="author" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+<meta name="publisher" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+...
+                     domain  flag path secure          expiration           name                            value
+1 #HttpOnly_ers.cr.usgs.gov FALSE    /   TRUE 2023-06-04 17:55:22 ers-production       us9lntu5rr4al3agafhjp3q0nb
+2 #HttpOnly_ers.cr.usgs.gov FALSE    /   TRUE 2023-06-04 17:16:25            fwb 37acc28f8115edc1eedd508718a67c64
+3 #HttpOnly_ers.cr.usgs.gov FALSE    /  FALSE 2024-06-03 16:55:21 cookiesession1 678A3E425A30645A6191E0DE87AC390D
+Response [https://ers.cr.usgs.gov/login?redirectUrl=https://ers.cr.usgs.gov/]
+  Date: 2023-06-04 14:56
+  Status: 200
+  Content-Type: text/html; charset=UTF-8
+  Size: 18.5 kB
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self';script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.co...
+        <meta name="viewport" content="width&#x3D;device-width,&#x20;initial-scale&#x3D;1.0">
+<meta name="description" content="Query&#x20;and&#x20;order&#x20;satellite&#x20;images,&#x20;aerial&#x20;photographs,&#x20;and&#x20;cartogra...
+<meta name="keywords" content="U.S.&#x20;Geological&#x20;Survey,USGS,National&#x20;Mapping&#x20;Division,NMD,USA,&#x0A;&#x20;&#x20;&#x20;&#x...
+<meta name="author" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+<meta name="publisher" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+...
+Response [https://ers.cr.usgs.gov/login/]
+  Date: 2023-06-04 14:56
+  Status: 200
+  Content-Type: text/html; charset=UTF-8
+  Size: 18.5 kB
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self';script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.co...
+        <meta name="viewport" content="width&#x3D;device-width,&#x20;initial-scale&#x3D;1.0">
+<meta name="description" content="Query&#x20;and&#x20;order&#x20;satellite&#x20;images,&#x20;aerial&#x20;photographs,&#x20;and&#x20;cartogra...
+<meta name="keywords" content="U.S.&#x20;Geological&#x20;Survey,USGS,National&#x20;Mapping&#x20;Division,NMD,USA,&#x0A;&#x20;&#x20;&#x20;&#x...
+<meta name="author" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+<meta name="publisher" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+...
+$date
+[1] "Sun, 04 Jun 2023 14:56:48 GMT"
+
+$server
+[1] "Apache"
+
+$`x-frame-options`
+[1] "SAMEORIGIN"
+
+$`strict-transport-security`
+[1] "max-age=31536000; includeSubDomains; preload"
+
+$expires
+[1] "Thu, 19 Nov 1981 08:52:00 GMT"
+
+$`cache-control`
+[1] "no-store, no-cache, must-revalidate"
+
+$pragma
+[1] "no-cache"
+
+$`content-type`
+[1] "text/html; charset=UTF-8"
+
+$`set-cookie`
+[1] "fwb=37acc28f8115edc1eedd508730a67c64;max-age=1200;Path=/;Secure;HttpOnly"
+
+$`content-length`
+[1] "18517"
+
+attr(,"class")
+[1] "insensitive" "list"       
+<request>
+GET https://ers.cr.usgs.gov/login/
+Output: write_memory
+Options:
+* useragent: libcurl/7.84.0 r-curl/5.0.0 httr/1.4.6
+* httpget: TRUE
+Headers:
+* Accept: application/json, text/xml, application/xml, */*
+Response [https://ers.cr.usgs.gov/login?redirectUrl=https://ers.cr.usgs.gov/]
+  Date: 2023-06-04 14:57
+  Status: 200
+  Content-Type: text/html; charset=UTF-8
+  Size: 18.5 kB
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self';script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.co...
+        <meta name="viewport" content="width&#x3D;device-width,&#x20;initial-scale&#x3D;1.0">
+<meta name="description" content="Query&#x20;and&#x20;order&#x20;satellite&#x20;images,&#x20;aerial&#x20;photographs,&#x20;and&#x20;cartogra...
+<meta name="keywords" content="U.S.&#x20;Geological&#x20;Survey,USGS,National&#x20;Mapping&#x20;Division,NMD,USA,&#x0A;&#x20;&#x20;&#x20;&#x...
+<meta name="author" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+<meta name="publisher" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+...
+<request>
+GET https://ers.cr.usgs.gov/login/
+Output: write_memory
+Options:
+* useragent: libcurl/7.84.0 r-curl/5.0.0 httr/1.4.6
+* httpget: TRUE
+Headers:
+* Accept: application/json, text/xml, application/xml, */*
+Response [https://ers.cr.usgs.gov/login/]
+  Date: 2023-06-04 14:57
+  Status: 200
+  Content-Type: text/html; charset=UTF-8
+  Size: 18.5 kB
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self';script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.co...
+        <meta name="viewport" content="width&#x3D;device-width,&#x20;initial-scale&#x3D;1.0">
+<meta name="description" content="Query&#x20;and&#x20;order&#x20;satellite&#x20;images,&#x20;aerial&#x20;photographs,&#x20;and&#x20;cartogra...
+<meta name="keywords" content="U.S.&#x20;Geological&#x20;Survey,USGS,National&#x20;Mapping&#x20;Division,NMD,USA,&#x0A;&#x20;&#x20;&#x20;&#x...
+<meta name="author" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+<meta name="publisher" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+...
+$date
+[1] "Sun, 04 Jun 2023 14:57:52 GMT"
+
+$server
+[1] "Apache"
+
+$`x-frame-options`
+[1] "SAMEORIGIN"
+
+$`strict-transport-security`
+[1] "max-age=31536000; includeSubDomains; preload"
+
+$expires
+[1] "Thu, 19 Nov 1981 08:52:00 GMT"
+
+$`cache-control`
+[1] "no-store, no-cache, must-revalidate"
+
+$pragma
+[1] "no-cache"
+
+$`content-type`
+[1] "text/html; charset=UTF-8"
+
+$`set-cookie`
+[1] "fwb=37acc28f8115edc1eedd508770a67c64;max-age=1200;Path=/;Secure;HttpOnly"
+
+$`content-length`
+[1] "18517"
+
+attr(,"class")
+[1] "insensitive" "list"       
+[[1]]
+[[1]]$status
+[1] 200
+
+[[1]]$version
+[1] "HTTP/1.1"
+
+[[1]]$headers
+$date
+[1] "Sun, 04 Jun 2023 14:57:52 GMT"
+
+$server
+[1] "Apache"
+
+$`x-frame-options`
+[1] "SAMEORIGIN"
+
+$`strict-transport-security`
+[1] "max-age=31536000; includeSubDomains; preload"
+
+$expires
+[1] "Thu, 19 Nov 1981 08:52:00 GMT"
+
+$`cache-control`
+[1] "no-store, no-cache, must-revalidate"
+
+$pragma
+[1] "no-cache"
+
+$`content-type`
+[1] "text/html; charset=UTF-8"
+
+$`set-cookie`
+[1] "fwb=37acc28f8115edc1eedd508770a67c64;max-age=1200;Path=/;Secure;HttpOnly"
+
+$`content-length`
+[1] "18517"
+
+attr(,"class")
+[1] "insensitive" "list"       
+
+
+                     domain  flag path secure          expiration           name                            value
+1 #HttpOnly_ers.cr.usgs.gov FALSE    /   TRUE 2023-06-04 17:55:22 ers-production       us9lntu5rr4al3agafhjp3q0nb
+2 #HttpOnly_ers.cr.usgs.gov FALSE    /   TRUE 2023-06-04 17:17:52            fwb 37acc28f8115edc1eedd508770a67c64
+3 #HttpOnly_ers.cr.usgs.gov FALSE    /  FALSE 2024-06-03 16:55:21 cookiesession1 678A3E425A30645A6191E0DE87AC390D
+                     domain  flag path secure          expiration           name                            value
+1 #HttpOnly_ers.cr.usgs.gov FALSE    /   TRUE 2023-06-04 17:55:22 ers-production       us9lntu5rr4al3agafhjp3q0nb
+2 #HttpOnly_ers.cr.usgs.gov FALSE    /   TRUE 2023-06-04 17:17:52            fwb 37acc28f8115edc1eedd508770a67c64
+3 #HttpOnly_ers.cr.usgs.gov FALSE    /  FALSE 2024-06-03 16:55:21 cookiesession1 678A3E425A30645A6191E0DE87AC390D
+$username
+[1] "Ocirne94"
+
+$password
+[1] "scienceforachangingworld_"
+
+$csrf
+[1] "684b988469be269832ba2ef40331d5b7-7901d68dd991be2f8dce13bd78ab1960"
+
+<request>
+POST https://ers.cr.usgs.gov/login/
+Output: write_memory
+Options:
+* useragent: libcurl/7.84.0 r-curl/5.0.0 httr/1.4.6
+* post: TRUE
+Headers:
+* Accept: application/json, text/xml, application/xml, */*
+Fields:
+* username: Ocirne94
+* password: scienceforachangingworld_
+* csrf: 684b988469be269832ba2ef40331d5b7-7901d68dd991be2f8dce13bd78ab1960
+$date
+[1] "Sun, 04 Jun 2023 14:58:28 GMT"
+
+$server
+[1] "Apache"
+
+$`x-frame-options`
+[1] "SAMEORIGIN"
+
+$`strict-transport-security`
+[1] "max-age=31536000; includeSubDomains; preload"
+
+$expires
+[1] "Thu, 19 Nov 1981 08:52:00 GMT"
+
+$`cache-control`
+[1] "no-store, no-cache, must-revalidate"
+
+$pragma
+[1] "no-cache"
+
+$`content-type`
+[1] "text/html; charset=UTF-8"
+
+$`set-cookie`
+[1] "fwb=37acc28f8115edc1eedd508794a67c64;max-age=1200;Path=/;Secure;HttpOnly"
+
+$`content-length`
+[1] "31430"
+
+attr(,"class")
+[1] "insensitive" "list"       
+                     domain  flag path secure          expiration                       name
+1 #HttpOnly_ers.cr.usgs.gov FALSE    /   TRUE 2023-06-04 17:55:22             ers-production
+2 #HttpOnly_ers.cr.usgs.gov FALSE    /   TRUE 2023-06-04 17:18:29                        fwb
+3 #HttpOnly_ers.cr.usgs.gov FALSE    /  FALSE 2024-06-03 16:55:21             cookiesession1
+4       #HttpOnly_.usgs.gov  TRUE    /   TRUE 2023-06-18 16:58:28           ERS_production_2
+5                 .usgs.gov  TRUE    /   TRUE 2023-06-18 16:58:28 EROS_SSO_production_secure
+                                                                                                                                                                                                                                                                                                                                                 value
+1                                                                                                                                                                                                                                                                                                                           us9lntu5rr4al3agafhjp3q0nb
+2                                                                                                                                                                                                                                                                                                                     37acc28f8115edc1eedd508794a67c64
+3                                                                                                                                                                                                                                                                                                                     678A3E425A30645A6191E0DE87AC390D
+4                                                                                                                                                                                     550d70ea7f656dde07b0ba484ce67439rYjKaCtXGKBddp3mEx6643D8TfOOtJvPN7LFUqFIrw5ZyCqKcozZFSLs0iOZrFsDMcE1CeXDt7E0HkIUiY3lDjViRCuTka9mzf7h6LiLzIq730R6%2FC5fVsYoTC0%3D
+5 eyJjcmVhdGVkIjoxNjg1ODkwNzA4LCJ1cGRhdGVkIjoiMjAyMC0wNS0yNiAxMDoxMzowOCIsImF1dGhUeXBlIjoiIiwiYXV0aFNlcnZpY2UiOiJFUk9TIiwidmVyc2lvbiI6MS4xLCJzdGF0ZSI6ImNiM2MyMDY5YTRkZGQyOGFhYmE1ZDk1ZjAxY2FjMjIxMzE0NzE3OGQzNTk5MTBhZWM0NzdlODI1ZjFjMDIxYjYiLCJpZCI6InhBdX5rXitEeXkqemMwby1kfSIsInNlY3JldCI6Im9GPiZLdnI%2BMmV6RTYyMDJiW1lIPEVkdmlJPF93LTgxUWxOIn0%3D
+Response [https://ers.cr.usgs.gov/login?redirectUrl=https://ers.cr.usgs.gov/]
+  Date: 2023-06-04 14:58
+  Status: 200
+  Content-Type: text/html; charset=UTF-8
+  Size: 18.5 kB
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self';script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.co...
+        <meta name="viewport" content="width&#x3D;device-width,&#x20;initial-scale&#x3D;1.0">
+<meta name="description" content="Query&#x20;and&#x20;order&#x20;satellite&#x20;images,&#x20;aerial&#x20;photographs,&#x20;and&#x20;cartogra...
+<meta name="keywords" content="U.S.&#x20;Geological&#x20;Survey,USGS,National&#x20;Mapping&#x20;Division,NMD,USA,&#x0A;&#x20;&#x20;&#x20;&#x...
+<meta name="author" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+<meta name="publisher" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+...
+Response [https://ers.cr.usgs.gov/login?redirectUrl=https://ers.cr.usgs.gov/]
+  Date: 2023-06-04 15:00
+  Status: 200
+  Content-Type: text/html; charset=UTF-8
+  Size: 18.5 kB
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self';script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.co...
+        <meta name="viewport" content="width&#x3D;device-width,&#x20;initial-scale&#x3D;1.0">
+<meta name="description" content="Query&#x20;and&#x20;order&#x20;satellite&#x20;images,&#x20;aerial&#x20;photographs,&#x20;and&#x20;cartogra...
+<meta name="keywords" content="U.S.&#x20;Geological&#x20;Survey,USGS,National&#x20;Mapping&#x20;Division,NMD,USA,&#x0A;&#x20;&#x20;&#x20;&#x...
+<meta name="author" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+<meta name="publisher" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+...
+[1] "LC81520332023155LGN00"
+[1] "L1_LC08_L1TP_152033_20230604_20230604_02_RT_B2_TIF" "524grtsed9zzqibu"                                  
+Response [https://dds.cr.usgs.gov/download/eyJpZCI6NDAwMzc0OTg2LCJjb250YWN0SWQiOjUxOTk2M30=/]
+  Date: 2023-06-04 15:02
+  Status: 200
+  Content-Type: application/octet-stream
+  Size: 103 MB
+<ON DISK>  D:\EnricoMattea\livesat\src\landsat_tmp\L1_LC08_L1TP_152033_20230604_20230604_02_RT_B2.TIFChecking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Working on LC91530312023154LGN00 (2/3)...
+Checking for data... 
