@@ -1,20 +1,20 @@
-Started at 2023-06-04 18:06:17 +0200
+Started at 2023-06-04 18:06:58 +0200
 Reading locations file...
 Processing Landsat 8/9...
 Looking for Landsat scenes covering abramov... 2 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering barkrak... 1 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering batysh_sook... None found over the period.
-Looking for Landsat scenes covering gl354... None found over the period.
+Looking for Landsat scenes covering batysh_sook... 2 scene(s) found, including uninteresting ones... 2 excluding them.
+Looking for Landsat scenes covering gl354... 2 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering gl457... None found over the period.
-Looking for Landsat scenes covering gl599... None found over the period.
-Looking for Landsat scenes covering golubin... None found over the period.
-Looking for Landsat scenes covering grigoriev... None found over the period.
-Looking for Landsat scenes covering kara-batkak... None found over the period.
-Looking for Landsat scenes covering sary-tor... None found over the period.
-Looking for Landsat scenes covering turgen_ak-suu... None found over the period.
-Looking for Landsat scenes covering tuyuksu... None found over the period.
+Looking for Landsat scenes covering gl599... 2 scene(s) found, including uninteresting ones... 2 excluding them.
+Looking for Landsat scenes covering golubin... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering grigoriev... 2 scene(s) found, including uninteresting ones... 2 excluding them.
+Looking for Landsat scenes covering kara-batkak... 3 scene(s) found, including uninteresting ones... 2 excluding them.
+Looking for Landsat scenes covering sary-tor... 2 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering turgen_ak-suu... 2 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering tuyuksu... 1 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering yakarcha... 1 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering zulmart... None found over the period.
 No new Landsat scenes to process.
 Writing Landsat 8/9 tile info file...
-Finished at 2023-06-04 18:06:43 +0200
+Finished at 2023-06-04 18:07:25 +0200
