@@ -1,4 +1,4 @@
-Started at 2023-06-09 15:30:19 +0200
+Started at 2023-06-09 18:40:47 +0200
 Reading locations file...
 Processing Sentinel-2...
 9 tiles to examine...
@@ -12,4 +12,19 @@ Checking Sentinel-2 tile 7 of 9... No new scenes found. Moving on...
 Checking Sentinel-2 tile 8 of 9... No new scenes found. Moving on...
 Checking Sentinel-2 tile 9 of 9... No new scenes found. Moving on...
 Writing Sentinel-2 tile info file...
-Finished at 2023-06-09 15:30:26 +0200
+Processing Landsat 8/9...
+Looking for Landsat scenes covering abramov... 96 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering barkrak... 51 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering batysh_sook... 45 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl354... 78 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl457... 92 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl599... 65 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering golubin... 81 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering grigoriev... 61 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering kara-batkak... 74 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering sary-tor... 76 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering turgen_ak-suu... 121 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering tuyuksu... 81 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering yakarcha... 138 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering zulmart... 95 scene(s) found, including uninteresting ones... 0 excluding them.
+Finished at 2023-06-09 18:41:08 +0200
