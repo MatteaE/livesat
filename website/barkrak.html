@@ -13,10 +13,10 @@
 <body>
 
     <button onclick="toggle_contours()">Toggle contours</button>
-    <form id="geotiff16_dl" style="display:inline" action="../imagery/barkrak/v1/2023-06-10_s2.tif" method="get">
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/barkrak/v1/2023-06-11_ls.tif" method="get">
         <button>Download 16-bit RGB Geotiff</button>
     </form>
-    <form id="geotiff8_dl" style="display:inline" action="../imagery/barkrak/v2/2023-06-10_s2_pan.tif" method="get">
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/barkrak/v2/2023-06-11_ls_pan.tif" method="get">
         <button>Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
@@ -25,7 +25,7 @@
 
     
     <p>
-    <div id="img_title"><b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;10 June 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
+    <div id="img_title"><b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 June 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b></div>
 
     <p>
       <button id="btn_prev" onclick="prev()">Older image</button>
@@ -33,7 +33,7 @@
     </p>
 
     <p>
-    <img src="../imagery/barkrak/v3/2023-06-10_s2.jpg" alt="" style="width:500px;">
+    <img src="../imagery/barkrak/v3/2023-06-11_ls.jpg" alt="" style="width:500px;">
     </p>
     
     <p>
@@ -42,8 +42,8 @@
 
     <script>
         var img_basedir = "../imagery/barkrak"
-        var img_names = ["2023-05-11_s2.jpg", "2023-05-16_s2.jpg", "2023-05-18_ls.jpg", "2023-05-21_s2.jpg", "2023-05-26_ls.jpg", "2023-05-26_s2.jpg", "2023-05-31_s2.jpg", "2023-06-03_ls.jpg", "2023-06-05_s2.jpg", "2023-06-10_s2.jpg"]
-        var img_titles = ["<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;18 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;31 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 June 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;05 June 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;10 June 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
+        var img_names = ["2023-05-11_s2.jpg", "2023-05-16_s2.jpg", "2023-05-18_ls.jpg", "2023-05-21_s2.jpg", "2023-05-26_ls.jpg", "2023-05-26_s2.jpg", "2023-05-31_s2.jpg", "2023-06-03_ls.jpg", "2023-06-05_s2.jpg", "2023-06-10_s2.jpg", "2023-06-11_ls.jpg"]
+        var img_titles = ["<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;18 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;31 May 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 June 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;05 June 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;10 June 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 June 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>"]
     </script>
     <script src="script_generic.js"></script>
 </body>
