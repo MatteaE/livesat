@@ -9,35 +9,41 @@
 	<link rel="icon" href="../favicon.svg?" type="image/svg+xml">
 	<link rel="apple-touch-icon" href="../apple-touch-icon.png?">
 	<link rel="manifest" href="../manifest.webmanifest?">
+	
+	<style>
+	.text-sansserif {
+		font-family: sans-serif;
+	}
+	</style>
 </head>
 <body>
 
-    <button onclick="toggle_contours()">Toggle contours</button>
+    <button onclick="toggle_contours()" class="text-sansserif">Toggle contours</button>
     <form id="geotiff16_dl" style="display:inline" action="../imagery/barkrak/v1/2023-06-11_ls.tif" method="get">
-        <button>Download 16-bit RGB Geotiff</button>
+        <button class="text-sansserif">Download 16-bit RGB Geotiff</button>
     </form>
     <form id="geotiff8_dl" style="display:inline" action="../imagery/barkrak/v2/2023-06-11_ls_pan.tif" method="get">
-        <button>Download 8-bit grayscale Geotiff</button>
+        <button class="text-sansserif">Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
-        <button>Go back to homepage</button>
+        <button class="text-sansserif">Go back to homepage</button>
     </form>
 
     
     <p>
-    <div id="img_title"><b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 June 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b></div>
+    <div id="img_title" class="text-sansserif"><b>Barkrak (UZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 June 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b></div>
 
     <p>
-      <button id="btn_prev" onclick="prev()">Older image</button>
-      <button id="btn_next" onclick="next()" disabled>Newer image</button>
+      <button id="btn_prev" onclick="prev()" class="text-sansserif">Older image</button>
+      <button id="btn_next" onclick="next()" class="text-sansserif" disabled>Newer image</button>
     </p>
 
     <p>
     <img src="../imagery/barkrak/v3/2023-06-11_ls.jpg" alt="" style="width:500px;">
     </p>
     
-    <p>
-    Go to: <a href="abramov.html">Abramov (KG)</a>&nbsp;<b>·</b>&nbsp;<a><b>Barkrak (UZ)</b></a>&nbsp;<b>·</b>&nbsp;<a href="batysh_sook.html">Batysh Sook (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="gl354.html">Glacier #354 (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="gl457.html">Glacier #457 (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="gl599.html">Glacier #599 (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="golubin.html">Golubin (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="grigoriev.html">Grigoriev (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="kara-batkak.html">Kara-Batkak (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="sary-tor.html">Sary-Tor (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="turgen_ak-suu.html">Turgen Ak-Suu (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="tuyuksu.html">Tuyuksu (KZ)</a>&nbsp;<b>·</b>&nbsp;<a href="yakarcha.html">Yakarcha (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="zulmart.html">Zulmart (TJ)</a>
+    <p class="text-sansserif">
+    <b>Go to:</b> <a href="abramov.html">Abramov (KG)</a>&nbsp;<b>·</b>&nbsp;<a><b>Barkrak (UZ)</b></a>&nbsp;<b>·</b>&nbsp;<a href="batysh_sook.html">Batysh Sook (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="gl354.html">Glacier #354 (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="gl457.html">Glacier #457 (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="gl599.html">Glacier #599 (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="golubin.html">Golubin (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="grigoriev.html">Grigoriev (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="kara-batkak.html">Kara-Batkak (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="sary-tor.html">Sary-Tor (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="turgen_ak-suu.html">Turgen Ak-Suu (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="tuyuksu.html">Tuyuksu (KZ)</a>&nbsp;<b>·</b>&nbsp;<a href="yakarcha.html">Yakarcha (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="zulmart.html">Zulmart (TJ)</a>
     </p>
 
     <script>
