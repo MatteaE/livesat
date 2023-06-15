@@ -5,8 +5,11 @@ gl354          2023-06-11  s2
 gl457          2023-06-14  s2
 gl599          2023-06-14  s2
 golubin        2023-06-14  s2
+gorbunov       2023-06-13  ls
 grigoriev      2023-06-11  s2
 kara-batkak    2023-06-11  s2
+kyzylsu        2023-06-12  s2
+sangvor        2023-06-12  s2
 sary-tor       2023-06-11  s2
 turgen_ak-suu  2023-06-11  s2
 tuyuksu        2023-06-14  s2
