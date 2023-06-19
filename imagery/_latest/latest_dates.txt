@@ -13,5 +13,5 @@ sangvor        2023-06-17  s2
 sary-tor       2023-06-16  s2
 turgen_ak-suu  2023-06-16  s2
 tuyuksu        2023-06-16  s2
-yakarcha       2023-06-18  ls
+yakarcha       2023-06-18  s2
 zulmart        2023-06-17  s2
