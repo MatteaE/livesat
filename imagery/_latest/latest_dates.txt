@@ -3,8 +3,8 @@ barkrak        2023-07-05  s2
 batysh_sook    2023-07-06  s2
 ggp            2023-07-05  s2
 gl354          2023-07-06  s2
-gl457          2023-07-07  ls
-gl599          2023-07-04  s2
+gl457          2023-07-07  s2
+gl599          2023-07-08  ls
 golubin        2023-07-07  s2
 gorbunov       2023-07-07  s2
 grigoriev      2023-07-06  s2
