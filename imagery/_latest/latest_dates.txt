@@ -1,7 +1,7 @@
-abramov        2023-07-14  ls
-barkrak        2023-07-13  ls
+abramov        2023-07-15  s2
+barkrak        2023-07-15  s2
 batysh_sook    2023-07-11  s2
-ggp            2023-07-13  s2
+ggp            2023-07-15  s2
 gl354          2023-07-11  s2
 gl457          2023-07-15  ls
 gl599          2023-07-14  s2
@@ -9,10 +9,10 @@ golubin        2023-07-15  ls
 gorbunov       2023-07-15  ls
 grigoriev      2023-07-11  s2
 kara-batkak    2023-07-11  s2
-kyzylsu        2023-07-14  ls
-sangvor        2023-07-14  ls
+kyzylsu        2023-07-15  s2
+sangvor        2023-07-15  s2
 sary-tor       2023-07-11  s2
 turgen_ak-suu  2023-07-11  s2
 tuyuksu        2023-07-14  s2
-yakarcha       2023-07-13  s2
+yakarcha       2023-07-15  s2
 zulmart        2023-07-15  ls
