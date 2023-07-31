@@ -3,10 +3,10 @@ barkrak        2023-07-30  s2
 batysh_sook    2023-07-26  s2
 ggp            2023-07-30  s2
 gl354          2023-07-26  s2
-gl457          2023-07-29  s2
+gl457          2023-07-31  ls
 gl599          2023-07-29  s2
-golubin        2023-07-29  s2
-gorbunov       2023-07-30  ls
+golubin        2023-07-31  ls
+gorbunov       2023-07-31  ls
 grigoriev      2023-07-26  s2
 kara-batkak    2023-07-26  s2
 kyzylsu        2023-07-30  s2
@@ -15,4 +15,4 @@ sary-tor       2023-07-26  s2
 turgen_ak-suu  2023-07-26  s2
 tuyuksu        2023-07-29  s2
 yakarcha       2023-07-30  s2
-zulmart        2023-07-27  s2
+zulmart        2023-07-31  ls
