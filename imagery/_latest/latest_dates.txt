@@ -1,7 +1,7 @@
 abramov        2023-08-26  s2
 barkrak        2023-08-24  s2
 batysh_sook    2023-08-27  ls
-ggp            2023-08-27  s2
+ggp            2023-08-29  ls
 gl354          2023-08-27  ls
 gl457          2023-08-28  s2
 gl599          2023-08-28  s2
@@ -14,5 +14,5 @@ sangvor        2023-08-26  s2
 sary-tor       2023-08-27  ls
 turgen_ak-suu  2023-08-27  ls
 tuyuksu        2023-08-28  s2
-yakarcha       2023-08-27  s2
+yakarcha       2023-08-29  ls
 zulmart        2023-08-26  s2
