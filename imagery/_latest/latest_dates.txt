@@ -4,7 +4,7 @@ batysh_sook    2023-09-09  s2
 ggp            2023-09-08  s2
 gl354          2023-09-09  s2
 gl457          2023-09-09  ls
-gl599          2023-09-07  s2
+gl599          2023-09-10  ls
 golubin        2023-09-09  ls
 gorbunov       2023-09-09  ls
 grigoriev      2023-09-09  s2
