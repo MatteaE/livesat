@@ -34,7 +34,7 @@ function next() {
 		if (count == 1) {
 			btn_prev.disabled = false
 		}
-		
+
 	// This else should happen only if something has gone very wrong
 	// (because the button should be disabled before count can reach
 	// img_set.length). We put it anyway (defensive programming).
