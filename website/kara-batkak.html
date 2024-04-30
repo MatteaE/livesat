@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Recent satellite images of Kara-Batkak (KG).">
+    <title>Kara-Batkak (KG)</title>
+    <link rel="icon" href="../favicon.ico?" sizes="any">
+	<link rel="icon" href="../favicon.svg?" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="../apple-touch-icon.png?">
+	<link rel="manifest" href="../manifest.webmanifest?">
+	
+	<style>
+	.text-sansserif {
+		font-family: sans-serif;
+	}
+	</style>
+</head>
+<body>
+
+    <button onclick="toggle_contours()" class="text-sansserif">Toggle contours</button>
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/kara-batkak/v1/2023-09-20_ls.tif" method="get">
+        <button class="text-sansserif">Download 16-bit RGB Geotiff</button>
+    </form>
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/kara-batkak/v2/2023-09-20_ls_pan.tif" method="get">
+        <button class="text-sansserif">Download 8-bit grayscale Geotiff</button>
+    </form>
+    <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
+        <button class="text-sansserif">Go back to homepage</button>
+    </form>
+
+    
+    <p>
+    <div id="img_title" class="text-sansserif"><b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;20 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b></div>
+
+    <p>
+      <button id="btn_prev" onclick="prev()" class="text-sansserif">Older image</button>
+      <button id="btn_next" onclick="next()" class="text-sansserif" disabled>Newer image</button>
+    </p>
+
+    <p>
+    <img src="../imagery/kara-batkak/v3/2023-09-20_ls.jpg" alt="" style="width:500px;">
+    </p>
+    
+    <p class="text-sansserif">
+    <b>Go to:</b> <a href="abramov.html">Abramov (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="barkrak.html">Barkrak (UZ)</a>&nbsp;<b>·</b>&nbsp;<a href="batysh_sook.html">Batysh Sook (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="ggp.html">GGP (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="gl354.html">Glacier #354 (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="gl457.html">Glacier #457 (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="gl599.html">Glacier #599 (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="golubin.html">Golubin (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="gorbunov.html">Gorbunov Station (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="grigoriev.html">Grigoriev (KG)</a>&nbsp;<b>·</b>&nbsp;<a><b>Kara-Batkak (KG)</b></a>&nbsp;<b>·</b>&nbsp;<a href="kyzylsu.html">Kyzylsu (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="sangvor.html">Sangvor (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="sary-tor.html">Sary-Tor (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="turgen_ak-suu.html">Turgen Ak-Suu (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="tuyuksu.html">Tuyuksu (KZ)</a>&nbsp;<b>·</b>&nbsp;<a href="yakarcha.html">Yakarcha (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="zulmart.html">Zulmart (TJ)</a>
+    </p>
+
+    <script>
+        var img_basedir = "../imagery/kara-batkak"
+        var img_names = ["2023-08-25_s2.jpg", "2023-08-26_ls.jpg", "2023-08-27_ls.jpg", "2023-08-30_s2.jpg", "2023-09-03_ls.jpg", "2023-09-04_ls.jpg", "2023-09-04_s2.jpg", "2023-09-09_s2.jpg", "2023-09-12_ls.jpg", "2023-09-14_s2.jpg", "2023-09-19_ls.jpg", "2023-09-19_s2.jpg", "2023-09-20_ls.jpg"]
+        var img_titles = ["<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;25 August 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 August 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;27 August 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;30 August 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;04 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;04 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;09 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;12 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;14 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;19 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;19 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kara-Batkak (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;20 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>"]
+    </script>
+    <script src="script_generic.js"></script>
+	
+	<script async data-id="101414135" src="//static.getclicky.com/js"></script>
+	<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101414135ns.gif" /></p></noscript>
+</body>
+</html>

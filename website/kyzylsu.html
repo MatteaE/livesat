@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Recent satellite images of Kyzylsu (TJ).">
+    <title>Kyzylsu (TJ)</title>
+    <link rel="icon" href="../favicon.ico?" sizes="any">
+	<link rel="icon" href="../favicon.svg?" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="../apple-touch-icon.png?">
+	<link rel="manifest" href="../manifest.webmanifest?">
+	
+	<style>
+	.text-sansserif {
+		font-family: sans-serif;
+	}
+	</style>
+</head>
+<body>
+
+    <button onclick="toggle_contours()" class="text-sansserif">Toggle contours</button>
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/kyzylsu/v1/2023-09-20_s2.tif" method="get">
+        <button class="text-sansserif">Download 16-bit RGB Geotiff</button>
+    </form>
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/kyzylsu/v2/2023-09-20_s2_pan.tif" method="get">
+        <button class="text-sansserif">Download 8-bit grayscale Geotiff</button>
+    </form>
+    <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
+        <button class="text-sansserif">Go back to homepage</button>
+    </form>
+
+    
+    <p>
+    <div id="img_title" class="text-sansserif"><b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;20 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
+
+    <p>
+      <button id="btn_prev" onclick="prev()" class="text-sansserif">Older image</button>
+      <button id="btn_next" onclick="next()" class="text-sansserif" disabled>Newer image</button>
+    </p>
+
+    <p>
+    <img src="../imagery/kyzylsu/v3/2023-09-20_s2.jpg" alt="" style="width:306px;">
+    </p>
+    
+    <p class="text-sansserif">
+    <b>Go to:</b> <a href="abramov.html">Abramov (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="barkrak.html">Barkrak (UZ)</a>&nbsp;<b>·</b>&nbsp;<a href="batysh_sook.html">Batysh Sook (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="ggp.html">GGP (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="gl354.html">Glacier #354 (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="gl457.html">Glacier #457 (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="gl599.html">Glacier #599 (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="golubin.html">Golubin (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="gorbunov.html">Gorbunov Station (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="grigoriev.html">Grigoriev (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="kara-batkak.html">Kara-Batkak (KG)</a>&nbsp;<b>·</b>&nbsp;<a><b>Kyzylsu (TJ)</b></a>&nbsp;<b>·</b>&nbsp;<a href="sangvor.html">Sangvor (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="sary-tor.html">Sary-Tor (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="turgen_ak-suu.html">Turgen Ak-Suu (KG)</a>&nbsp;<b>·</b>&nbsp;<a href="tuyuksu.html">Tuyuksu (KZ)</a>&nbsp;<b>·</b>&nbsp;<a href="yakarcha.html">Yakarcha (TJ)</a>&nbsp;<b>·</b>&nbsp;<a href="zulmart.html">Zulmart (TJ)</a>
+    </p>
+
+    <script>
+        var img_basedir = "../imagery/kyzylsu"
+        var img_names = ["2023-08-23_ls.jpg", "2023-08-24_s2.jpg", "2023-08-26_s2.jpg", "2023-08-29_s2.jpg", "2023-08-31_ls.jpg", "2023-08-31_s2.jpg", "2023-09-03_s2.jpg", "2023-09-05_s2.jpg", "2023-09-08_ls.jpg", "2023-09-08_s2.jpg", "2023-09-10_s2.jpg", "2023-09-15_s2.jpg", "2023-09-16_ls.jpg", "2023-09-18_s2.jpg", "2023-09-20_s2.jpg"]
+        var img_titles = ["<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;23 August 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;24 August 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 August 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;29 August 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;31 August 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;31 August 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;05 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;10 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;15 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;18 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Kyzylsu (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;20 September 2023&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
+    </script>
+    <script src="script_generic.js"></script>
+	
+	<script async data-id="101414135" src="//static.getclicky.com/js"></script>
+	<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101414135ns.gif" /></p></noscript>
+</body>
+</html>
