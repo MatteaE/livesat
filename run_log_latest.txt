@@ -1,4 +1,4 @@
-Started at 2024-05-11 03:30:21 +0200
+Started at 2024-05-11 15:30:21 +0200
 Reading locations file...
 Processing Sentinel-2...
 10 tiles to examine...
@@ -14,30 +14,22 @@ Checking Sentinel-2 tile 9 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 10 of 10... No new scenes found. Moving on...
 Writing Sentinel-2 tile info file...
 Processing Landsat 8/9...
-Looking for Landsat scenes covering abramov... 22 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering barkrak... 20 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering batysh_sook... 13 scene(s) found, including uninteresting ones... 2 excluding them.
-Looking for Landsat scenes covering ggp... 11 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering gl354... 13 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering gl457... 12 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering gl599... 22 scene(s) found, including uninteresting ones... 2 excluding them.
-Looking for Landsat scenes covering golubin... 21 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering gorbunov... 11 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering grigoriev... 13 scene(s) found, including uninteresting ones... 2 excluding them.
-Looking for Landsat scenes covering kara-batkak... 25 scene(s) found, including uninteresting ones... 2 excluding them.
-Looking for Landsat scenes covering kyzylsu... 11 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering sangvor... 11 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering sary-tor... 13 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering turgen_ak-suu... 26 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering tuyuksu... 12 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering yakarcha... 11 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering zulmart... 11 scene(s) found, including uninteresting ones... 0 excluding them.
-No new Landsat scenes to process.
-Writing Landsat 8/9 tile info file...
-Removing 1 ggp image(s) older than 31 days...
-Removing 1 gl457 image(s) older than 31 days...
-Removing 1 gl599 image(s) older than 31 days...
-Removing 1 golubin image(s) older than 31 days...
-Removing 1 tuyuksu image(s) older than 31 days...
-Removing 1 yakarcha image(s) older than 31 days...
-Finished at 2024-05-11 03:31:03 +0200
+Looking for Landsat scenes covering abramov... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering barkrak... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering batysh_sook... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering ggp... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering gl354... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering gl457... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering gl599... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering golubin... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering gorbunov... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering grigoriev... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering kara-batkak... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering kyzylsu... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering sangvor... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering sary-tor... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering turgen_ak-suu... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering tuyuksu... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering yakarcha... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Looking for Landsat scenes covering zulmart... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
+Finished at 2024-05-11 16:11:07 +0200
