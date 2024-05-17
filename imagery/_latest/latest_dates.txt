@@ -4,7 +4,7 @@ batysh_sook    2024-05-16  s2
 ggp            2024-05-15  s2
 gl354          2024-05-16  s2
 gl457          2024-05-14  s2
-gl599          2024-05-14  s2
+gl599          2024-05-16  ls
 golubin        2024-05-14  s2
 gorbunov       2024-05-14  ls
 grigoriev      2024-05-16  s2
