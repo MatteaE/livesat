@@ -72,3 +72,8 @@ Messages d'avis :
 16: [rast] unknown extent
 17: [rast] unknown extent
 18: [rast] unknown extent
+# A tibble: 1 × 3
+  file               status   staged
+  <chr>              <chr>    <lgl> 
+1 run_log_latest.txt modified TRUE  
+[1] "1291047f658ea31dc9b20dd808cbf072c64b3773"
