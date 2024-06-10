@@ -1,7 +1,6 @@
 abramov          2024-06-09  s2
 barkrak          2024-06-09  s2
 batysh_sook      2024-06-10  s2
-kon-chukurbashi  2024-06-08  s2
 ggp              2024-06-09  s2
 gl354            2024-06-10  s2
 gl457            2024-06-08  s2
@@ -10,6 +9,7 @@ golubin          2024-06-08  s2
 gorbunov         2024-06-07  ls
 grigoriev        2024-06-10  s2
 kara-batkak      2024-06-10  s2
+kon-chukurbashi  2024-06-08  s2
 kyzylsu          2024-06-09  s2
 sangvor          2024-06-09  s2
 sary-tor         2024-06-10  s2
