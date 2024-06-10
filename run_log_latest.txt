@@ -1,35 +1,27 @@
-Started at 2024-06-10 11:16:57 +0200
+Started at 2024-06-10 12:23:06 +0200
 Reading locations file...
 Processing Sentinel-2...
 10 tiles to examine...
-Checking Sentinel-2 tile 1 of 10... [1] "C:\\Users\\MatteaE\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
-function (name) 
-.Internal(args(name))
-<bytecode: 0x000001cca5bd5ca8>
-<environment: namespace:base>
-[1] "C:\\Users\\MatteaE\\AppData\\Local\\Programs\\Python\\Python310\\python.exe D:\\EnricoMattea\\livesat\\src\\eodag_sentinel2.py -t 42SYJ -d1 2024-06-06 -d2 2024-06-11 -f tileinfo_s2.csv"
-skip that scene, something is wrong on the Copernicus Dataspace
-
-
-
-WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20240609T060639_N0510_R134_T42TXM_20240609T070434.zip -- I have to skip that scene, something is wrong on the Copernicus Dataspace
-
-Checking Sentinel-2 tile 3 of 10... 
-
-WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20240609T060639_N0510_R134_T42SYJ_20240609T070434.zip -- I have to skip that scene, something is wrong on the Copernicus Dataspace
-
-
-
-WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20240610T053649_N0510_R005_T44TKM_20240610T072837.zip -- I have to skip that scene, something is wrong on the Copernicus Dataspace
-
-Checking Sentinel-2 tile 4 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 1 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Nope. Moving to the next location...
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 2 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 3 of 10... Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 4 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 5 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 6 of 10... Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 6 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 7 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 8 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking Sentinel-2 tile 9 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 8 of 10... No new scenes found. Moving on...
+Checking Sentinel-2 tile 9 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 10 of 10... No new scenes found. Moving on...
 Writing Sentinel-2 tile info file...
 Processing Landsat 8/9...
@@ -53,4 +45,11 @@ Looking for Landsat scenes covering yakarcha... 9 scene(s) found, including unin
 Looking for Landsat scenes covering zulmart... 11 scene(s) found, including uninteresting ones... 1 excluding them.
 No new Landsat scenes to process.
 Writing Landsat 8/9 tile info file...
-Finished at 2024-06-10 12:16:38 +0200
+Finished at 2024-06-10 12:25:58 +0200
+... 24 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering tuyuksu... 12 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering yakarcha... 9 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering zulmart... 11 scene(s) found, including uninteresting ones... 1 excluding them.
+No new Landsat scenes to process.
+Writing Landsat 8/9 tile info file...
+Finished at 2024-06-10 12:25:58 +0200
