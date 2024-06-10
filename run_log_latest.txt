@@ -53,3 +53,22 @@ Looking for Landsat scenes covering zulmart... 11 scene(s) found, including unin
 No new Landsat scenes to process.
 Writing Landsat 8/9 tile info file...
 Finished at 2024-06-10 12:25:58 +0200
+Messages d'avis :
+1: [rast] unknown extent
+2: [rast] unknown extent
+3: [rast] unknown extent
+4: [rast] unknown extent
+5: [rast] unknown extent
+6: [rast] unknown extent
+7: [rast] unknown extent
+8: [rast] unknown extent
+9: [rast] unknown extent
+10: [rast] unknown extent
+11: [rast] unknown extent
+12: [rast] unknown extent
+13: [rast] unknown extent
+14: [rast] unknown extent
+15: [rast] unknown extent
+16: [rast] unknown extent
+17: [rast] unknown extent
+18: [rast] unknown extent
