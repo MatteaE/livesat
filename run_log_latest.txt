@@ -1,45 +1,42 @@
-Started at 2024-12-27 15:30:22 +0100
+Started at 2024-12-28 03:30:39 +0100
 Reading locations file...
 Processing Sentinel-2...
 10 tiles to examine...
 Checking Sentinel-2 tile 1 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 2 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 3 of 10... Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 3 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 4 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 5 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 6 of 10... Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 6 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 7 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 8 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 9 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 10 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 10 of 10... No new scenes found. Moving on...
 Writing Sentinel-2 tile info file...
 Processing Landsat 8/9...
-Looking for Landsat scenes covering abramov... None found over the period.
-Looking for Landsat scenes covering barkrak... None found over the period.
-Looking for Landsat scenes covering batysh_sook... None found over the period.
-Looking for Landsat scenes covering ggp... None found over the period.
-Looking for Landsat scenes covering gl354... None found over the period.
-Looking for Landsat scenes covering gl457... None found over the period.
-Looking for Landsat scenes covering gl599... None found over the period.
-Looking for Landsat scenes covering golubin... None found over the period.
-Looking for Landsat scenes covering gorbunov... None found over the period.
-Looking for Landsat scenes covering grigoriev... None found over the period.
-Looking for Landsat scenes covering kara-batkak... None found over the period.
-Looking for Landsat scenes covering kon-chukurbashi... None found over the period.
-Looking for Landsat scenes covering kyzylsu... None found over the period.
-Looking for Landsat scenes covering sangvor... None found over the period.
-Looking for Landsat scenes covering sary-tor... None found over the period.
-Looking for Landsat scenes covering turgen_ak-suu... None found over the period.
-Looking for Landsat scenes covering tuyuksu... None found over the period.
-Looking for Landsat scenes covering yakarcha... None found over the period.
-Looking for Landsat scenes covering zulmart... None found over the period.
-Finished at 2024-12-27 15:37:00 +0100
+Looking for Landsat scenes covering abramov... 2 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering barkrak... 2 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering batysh_sook... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering ggp... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl354... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl457... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl599... 2 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering golubin... 2 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gorbunov... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering grigoriev... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering kara-batkak... 2 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering kon-chukurbashi... 2 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering kyzylsu... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering sangvor... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering sary-tor... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering turgen_ak-suu... 2 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering tuyuksu... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering yakarcha... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering zulmart... 1 scene(s) found, including uninteresting ones... 0 excluding them.
+Removing 1 abramov image(s) older than 31 days...
+Removing 1 barkrak image(s) older than 31 days...
+Removing 1 ggp image(s) older than 31 days...
+Removing 1 kyzylsu image(s) older than 31 days...
+Removing 1 sangvor image(s) older than 31 days...
+Removing 1 yakarcha image(s) older than 31 days...
+Finished at 2024-12-28 03:32:05 +0100
