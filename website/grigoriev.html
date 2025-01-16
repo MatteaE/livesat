@@ -19,10 +19,10 @@
 <body>
 
     <button onclick="toggle_contours()" class="text-sansserif">Toggle contours</button>
-    <form id="geotiff16_dl" style="display:inline" action="../imagery/grigoriev/v1/2025-01-11_s2.tif" method="get">
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/grigoriev/v1/2025-01-16_s2.tif" method="get">
         <button class="text-sansserif">Download 16-bit RGB Geotiff</button>
     </form>
-    <form id="geotiff8_dl" style="display:inline" action="../imagery/grigoriev/v2/2025-01-11_s2_pan.tif" method="get">
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/grigoriev/v2/2025-01-16_s2_pan.tif" method="get">
         <button class="text-sansserif">Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
@@ -31,7 +31,7 @@
 
     
     <p>
-    <div id="img_title" class="text-sansserif"><b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 January 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
+    <div id="img_title" class="text-sansserif"><b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 January 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
 
     <p>
       <button id="btn_prev" onclick="prev()" class="text-sansserif">Older image</button>
@@ -39,7 +39,7 @@
     </p>
 
     <p>
-    <img src="../imagery/grigoriev/v3/2025-01-11_s2.jpg" alt="" style="width:282px;">
+    <img src="../imagery/grigoriev/v3/2025-01-16_s2.jpg" alt="" style="width:282px;">
     </p>
     
     <p class="text-sansserif">
@@ -48,8 +48,8 @@
 
     <script>
         var img_basedir = "../imagery/grigoriev"
-        var img_names = ["2024-12-17_s2.jpg", "2024-12-22_s2.jpg", "2024-12-27_s2.jpg", "2025-01-06_s2.jpg", "2025-01-11_s2.jpg"]
-        var img_titles = ["<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;17 December 2024&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;22 December 2024&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;27 December 2024&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 January 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 January 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
+        var img_names = ["2024-12-17_s2.jpg", "2024-12-22_s2.jpg", "2024-12-27_s2.jpg", "2025-01-06_s2.jpg", "2025-01-11_s2.jpg", "2025-01-16_s2.jpg"]
+        var img_titles = ["<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;17 December 2024&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;22 December 2024&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;27 December 2024&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 January 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;11 January 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 January 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
     </script>
     <script src="script_generic.js"></script>
 	
