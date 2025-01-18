@@ -1,7 +1,7 @@
 abramov          2025-01-17  s2
 barkrak          2025-01-15  s2
 batysh_sook      2025-01-16  s2
-ggp              2025-01-15  s2
+ggp              2025-01-18  s2
 gl354            2025-01-16  s2
 gl457            2025-01-17  s2
 gl599            2025-01-14  s2
@@ -15,5 +15,5 @@ sangvor          2025-01-17  s2
 sary-tor         2025-01-16  s2
 turgen_ak-suu    2025-01-16  s2
 tuyuksu          2025-01-16  s2
-yakarcha         2025-01-15  s2
+yakarcha         2025-01-18  s2
 zulmart          2025-01-17  s2
