@@ -1,4 +1,4 @@
-Started at 2025-04-14 03:30:21 +0200
+Started at 2025-04-14 15:30:20 +0200
 Reading locations file...
 Processing Sentinel-2...
 10 tiles to examine...
@@ -14,33 +14,34 @@ Checking Sentinel-2 tile 9 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 10 of 10... No new scenes found. Moving on...
 Writing Sentinel-2 tile info file...
 Processing Landsat 8/9...
-Looking for Landsat scenes covering abramov... 22 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering barkrak... 21 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering batysh_sook... 12 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering ggp... 10 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering gl354... 12 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering gl457... 11 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering gl599... 20 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering golubin... 22 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering gorbunov... 11 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering grigoriev... 12 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering kara-batkak... 23 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering kon-chukurbashi... 16 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering kyzylsu... 11 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering sangvor... 11 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering sary-tor... 12 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering turgen_ak-suu... 24 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering tuyuksu... 11 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering yakarcha... 10 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering zulmart... 11 scene(s) found, including uninteresting ones... 0 excluding them.
-No new Landsat scenes to process.
+Looking for Landsat scenes covering abramov... 26 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering barkrak... 23 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering batysh_sook... 14 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering ggp... 11 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering gl354... 14 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering gl457... 13 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl599... 24 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering golubin... 26 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gorbunov... 13 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering grigoriev... 14 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering kara-batkak... 27 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering kon-chukurbashi... 19 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering kyzylsu... 13 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering sangvor... 13 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering sary-tor... 14 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering turgen_ak-suu... 28 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering tuyuksu... 13 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering yakarcha... 11 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering zulmart... 13 scene(s) found, including uninteresting ones... 0 excluding them.
+
+We have 1 unique scenes to download and process.
+
+Working on LC91520332025104LGN00 (1/1)...
+Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Location and scene EPSG do not match. I am reprojecting the location EPSG.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 Writing Landsat 8/9 tile info file...
-Removing 2 abramov image(s) older than 31 days...
-Removing 1 gl457 image(s) older than 31 days...
-Removing 1 golubin image(s) older than 31 days...
-Removing 2 gorbunov image(s) older than 31 days...
-Removing 1 kon-chukurbashi image(s) older than 31 days...
-Removing 2 kyzylsu image(s) older than 31 days...
-Removing 2 sangvor image(s) older than 31 days...
-Removing 1 zulmart image(s) older than 31 days...
-Finished at 2025-04-14 03:31:24 +0200
+Finished at 2025-04-14 15:37:08 +0200

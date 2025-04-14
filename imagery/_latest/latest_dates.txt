@@ -1,4 +1,4 @@
-abramov          2025-04-10  s2
+abramov          2025-04-14  ls
 barkrak          2025-04-13  ls
 batysh_sook      2025-04-10  ls
 ggp              2025-04-12  ls
@@ -6,12 +6,12 @@ gl354            2025-04-10  ls
 gl457            2025-04-09  s2
 gl599            2025-04-09  s2
 golubin          2025-04-09  s2
-gorbunov         2025-04-09  s2
+gorbunov         2025-04-14  ls
 grigoriev        2025-04-10  ls
 kara-batkak      2025-04-10  ls
 kon-chukurbashi  2025-04-09  s2
-kyzylsu          2025-04-10  s2
-sangvor          2025-04-10  s2
+kyzylsu          2025-04-14  ls
+sangvor          2025-04-14  ls
 sary-tor         2025-04-10  ls
 turgen_ak-suu    2025-04-10  ls
 tuyuksu          2025-04-09  s2
