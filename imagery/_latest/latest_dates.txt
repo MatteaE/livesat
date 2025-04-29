@@ -1,7 +1,7 @@
 abramov          2025-04-22  ls
 barkrak          2025-04-21  ls
 batysh_sook      2025-04-26  ls
-ggp              2025-04-20  ls
+ggp              2025-04-28  ls
 gl354            2025-04-26  ls
 gl457            2025-04-23  ls
 gl599            2025-04-25  ls
@@ -15,5 +15,5 @@ sangvor          2025-04-22  ls
 sary-tor         2025-04-26  ls
 turgen_ak-suu    2025-04-26  ls
 tuyuksu          2025-04-25  ls
-yakarcha         2025-04-20  ls
+yakarcha         2025-04-28  ls
 zulmart          2025-04-23  ls
