@@ -1,38 +1,436 @@
-Started at 2025-04-30 09:38:13 +0200
+Started at 2025-04-30 10:07:15 +0200
 Reading locations file...
 Processing Sentinel-2...
 10 tiles to examine...
-Checking Sentinel-2 tile 1 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 2 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 3 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 4 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 5 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 6 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 7 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 8 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 9 of 10... No new scenes found. Moving on...
-Checking Sentinel-2 tile 10 of 10... No new scenes found. Moving on...
+Checking Sentinel-2 tile 1 of 10... 
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250412T061301_N0511_R134_T42SYJ_20250412T081042 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250429T060301_N0511_R091_T42SYJ_20250429T080232 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250412T055639_N0511_R091_T42SYJ_20250412T074358 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250415T060639_N0511_R134_T42SYJ_20250415T070122 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250422T055639_N0511_R091_T42SYJ_20250422T074150 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250425T060629_N0511_R134_T42SYJ_20250425T070158 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250417T055651_N0511_R091_T42SYJ_20250417T092808 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250420T060651_N0511_R134_T42SYJ_20250420T080510 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250420T060651_N0511_R134_T42SYJ_20250420T081348 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250427T055701_N0511_R091_T42SYJ_20250427T075515 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+Checking Sentinel-2 tile 2 of 10... 
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250412T061301_N0511_R134_T42TXM_20250412T081042 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250415T062311_N0511_R034_T42TXM_20250415T100641 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250415T060639_N0511_R134_T42TXM_20250415T070122 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250418T061629_N0511_R034_T42TXM_20250418T080257 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250425T060629_N0511_R134_T42TXM_20250425T070158 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250428T061629_N0511_R034_T42TXM_20250428T071025 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250413T061651_N0511_R034_T42TXM_20250413T081428 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250420T060651_N0511_R134_T42TXM_20250420T080510 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250423T061651_N0511_R034_T42TXM_20250423T082458 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+Checking Sentinel-2 tile 3 of 10... 
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250416T055251_N0511_R048_T44TKM_20250416T074953 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250423T054251_N0511_R005_T44TKM_20250423T093031 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250416T053649_N0511_R005_T44TKM_20250416T072239 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250419T054639_N0511_R048_T44TKM_20250419T073158 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250426T053639_N0511_R005_T44TKM_20250426T072216 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250429T054639_N0511_R048_T44TKM_20250429T073252 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250411T053701_N0511_R005_T44TKM_20250411T073441 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250414T054701_N0511_R048_T44TKM_20250414T074415 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250421T053701_N0511_R005_T44TKM_20250421T073405 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250424T054701_N0511_R048_T44TKM_20250424T074356 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+Checking Sentinel-2 tile 4 of 10... 
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250412T061301_N0511_R134_T42SVJ_20250412T081042 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250415T062311_N0511_R034_T42SVJ_20250415T100641 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250415T060639_N0511_R134_T42SVJ_20250415T070122 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250418T061629_N0511_R034_T42SVJ_20250418T080257 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250425T060629_N0511_R134_T42SVJ_20250425T070158 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250428T061629_N0511_R034_T42SVJ_20250428T071025 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250428T061629_N0511_R034_T42SVJ_20250428T080053 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250413T061651_N0511_R034_T42SVJ_20250413T082500 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250420T060651_N0511_R134_T42SVJ_20250420T081348 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250423T061651_N0511_R034_T42SVJ_20250423T082458 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+Checking Sentinel-2 tile 5 of 10... 
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250416T055251_N0511_R048_T43SCB_20250416T074953 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250429T060301_N0511_R091_T43SCB_20250429T080232 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250412T055639_N0511_R091_T43SCB_20250412T074358 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250419T054639_N0511_R048_T43SCB_20250419T073158 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250422T055639_N0511_R091_T43SCB_20250422T074150 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250429T054639_N0511_R048_T43SCB_20250429T073252 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250414T054701_N0511_R048_T43SCB_20250414T074415 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250414T054701_N0511_R048_T43SCB_20250414T091738 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250417T055651_N0511_R091_T43SCB_20250417T092808 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250424T054701_N0511_R048_T43SCB_20250424T074356 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250427T055701_N0511_R091_T43SCB_20250427T075515 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+Checking Sentinel-2 tile 6 of 10... 
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250416T055251_N0511_R048_T43TFH_20250416T074953 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250423T054251_N0511_R005_T43TFH_20250423T093031 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250416T053649_N0511_R005_T43TFH_20250416T072239 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250419T054639_N0511_R048_T43TFH_20250419T073158 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250426T053639_N0511_R005_T43TFH_20250426T072216 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250429T054639_N0511_R048_T43TFH_20250429T073252 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250411T053701_N0511_R005_T43TFH_20250411T073441 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250414T054701_N0511_R048_T43TFH_20250414T074415 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250421T053701_N0511_R005_T43TFH_20250421T073405 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250424T054701_N0511_R048_T43TFH_20250424T074356 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+Checking Sentinel-2 tile 7 of 10... 
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250416T055251_N0511_R048_T43TDH_20250416T074953 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250429T060301_N0511_R091_T43TDH_20250429T080232 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250412T055639_N0511_R091_T43TDH_20250412T074358 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250419T054639_N0511_R048_T43TDH_20250419T073158 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250422T055639_N0511_R091_T43TDH_20250422T074150 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250429T054639_N0511_R048_T43TDH_20250429T073252 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250414T054701_N0511_R048_T43TDH_20250414T074415 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250417T055651_N0511_R091_T43TDH_20250417T075404 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250424T054701_N0511_R048_T43TDH_20250424T074356 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250427T055701_N0511_R091_T43TDH_20250427T075515 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+Checking Sentinel-2 tile 8 of 10... 
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250416T055251_N0511_R048_T43SCD_20250416T074953 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250429T060301_N0511_R091_T43SCD_20250429T080232 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250412T055639_N0511_R091_T43SCD_20250412T074358 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250419T054639_N0511_R048_T43SCD_20250419T073158 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250422T055639_N0511_R091_T43SCD_20250422T074150 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250429T054639_N0511_R048_T43SCD_20250429T073252 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250414T054701_N0511_R048_T43SCD_20250414T074415 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250417T055651_N0511_R091_T43SCD_20250417T075404 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250417T055651_N0511_R091_T43SCD_20250417T092808 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250424T054701_N0511_R048_T43SCD_20250424T074356 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250427T055701_N0511_R091_T43SCD_20250427T075515 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+Checking Sentinel-2 tile 9 of 10... 
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250412T061301_N0511_R134_T42SXH_20250412T081042 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250429T060301_N0511_R091_T42SXH_20250429T080232 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250412T055639_N0511_R091_T42SXH_20250412T074358 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250415T060639_N0511_R134_T42SXH_20250415T070122 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250422T055639_N0511_R091_T42SXH_20250422T074150 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250425T060629_N0511_R134_T42SXH_20250425T070158 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250417T055651_N0511_R091_T42SXH_20250417T092808 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250420T060651_N0511_R134_T42SXH_20250420T081348 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250427T055701_N0511_R091_T42SXH_20250427T075515 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+Checking Sentinel-2 tile 10 of 10... 
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250420T053241_N0511_R105_T44TLM_20250420T091449 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2A_MSIL1C_20250423T054251_N0511_R005_T44TLM_20250423T093031 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250413T052649_N0511_R105_T44TLM_20250413T071941 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250416T053649_N0511_R005_T44TLM_20250416T072239 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250423T052649_N0511_R105_T44TLM_20250423T071927 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2B_MSIL1C_20250426T053639_N0511_R005_T44TLM_20250426T072216 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250411T053701_N0511_R005_T44TLM_20250411T073441 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250418T052711_N0511_R105_T44TLM_20250418T090027 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250421T053701_N0511_R005_T44TLM_20250421T073405 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
+
+
+WARNING: I could not find any of the three RGB bands in S2C_MSIL1C_20250428T052711_N0511_R105_T44TLM_20250428T090030 -- I have to skip that scene, something is wrong on the Copernicus Dataspace
+
 Writing Sentinel-2 tile info file...
 Processing Landsat 8/9...
-Looking for Landsat scenes covering abramov... 20 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering barkrak... 19 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering batysh_sook... 11 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering ggp... 9 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering gl354... 11 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering gl457... 10 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering gl599... 18 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering golubin... 20 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering gorbunov... 10 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering grigoriev... 11 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering kara-batkak... 21 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering kon-chukurbashi... 15 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering kyzylsu... 10 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering sangvor... 10 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering sary-tor... 11 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering turgen_ak-suu... 22 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering tuyuksu... 10 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering yakarcha... 9 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering zulmart... 10 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering abramov... 166 scene(s) found, including uninteresting ones... 3 excluding them.
+Looking for Landsat scenes covering barkrak... 148 scene(s) found, including uninteresting ones... 4 excluding them.
+Looking for Landsat scenes covering batysh_sook... 95 scene(s) found, including uninteresting ones... 8 excluding them.
+Looking for Landsat scenes covering ggp... 76 scene(s) found, including uninteresting ones... 4 excluding them.
+Looking for Landsat scenes covering gl354... 95 scene(s) found, including uninteresting ones... 4 excluding them.
+Looking for Landsat scenes covering gl457... 91 scene(s) found, including uninteresting ones... 4 excluding them.
+Looking for Landsat scenes covering gl599... 174 scene(s) found, including uninteresting ones... 8 excluding them.
+Looking for Landsat scenes covering golubin... 170 scene(s) found, including uninteresting ones... 4 excluding them.
+Looking for Landsat scenes covering gorbunov... 87 scene(s) found, including uninteresting ones... 7 excluding them.
+Looking for Landsat scenes covering grigoriev... 95 scene(s) found, including uninteresting ones... 8 excluding them.
+Looking for Landsat scenes covering kara-batkak... 186 scene(s) found, including uninteresting ones... 8 excluding them.
+Looking for Landsat scenes covering kon-chukurbashi... 133 scene(s) found, including uninteresting ones... 8 excluding them.
+Looking for Landsat scenes covering kyzylsu... 83 scene(s) found, including uninteresting ones... 3 excluding them.
+Looking for Landsat scenes covering sangvor... 83 scene(s) found, including uninteresting ones... 3 excluding them.
+Looking for Landsat scenes covering sary-tor... 95 scene(s) found, including uninteresting ones... 4 excluding them.
+Looking for Landsat scenes covering turgen_ak-suu... 190 scene(s) found, including uninteresting ones... 4 excluding them.
+Looking for Landsat scenes covering tuyuksu... 91 scene(s) found, including uninteresting ones... 4 excluding them.
+Looking for Landsat scenes covering yakarcha... 76 scene(s) found, including uninteresting ones... 4 excluding them.
+Looking for Landsat scenes covering zulmart... 87 scene(s) found, including uninteresting ones... 4 excluding them.
 No new Landsat scenes to process.
 Writing Landsat 8/9 tile info file...
-Finished at 2025-04-30 09:55:38 +0200
+Finished at 2025-04-30 11:13:28 +0200
+ 4 excluding them.
+Looking for Landsat scenes covering turgen_ak-suu... 190 scene(s) found, including uninteresting ones... 4 excluding them.
+Looking for Landsat scenes covering tuyuksu... 91 scene(s) found, including uninteresting ones... 4 excluding them.
+Looking for Landsat scenes covering yakarcha... 76 scene(s) found, including uninteresting ones... 4 excluding them.
+Looking for Landsat scenes covering zulmart... 87 scene(s) found, including uninteresting ones... 4 excluding them.
+No new Landsat scenes to process.
+Writing Landsat 8/9 tile info file...
+Finished at 2025-04-30 11:13:28 +0200
