@@ -1,4 +1,4 @@
-Started at 2025-06-11 15:30:19 +0200
+Started at 2025-06-12 03:30:21 +0200
 Reading locations file...
 Processing Sentinel-2...
 10 tiles to examine...
@@ -16,23 +16,40 @@ Writing Sentinel-2 tile info file...
 Processing Landsat 8/9...
 Looking for Landsat scenes covering abramov... 16 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering barkrak... 13 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering batysh_sook... 9 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering ggp... 6 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering gl354... 9 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering batysh_sook... 10 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering ggp... 6 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl354... 10 scene(s) found, including uninteresting ones... 0 excluding them.
 Looking for Landsat scenes covering gl457... 9 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering gl599... 18 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl599... 20 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering golubin... 18 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering gorbunov... 9 scene(s) found, including uninteresting ones... 2 excluding them.
-Looking for Landsat scenes covering grigoriev... 9 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering kara-batkak... 18 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering kon-chukurbashi... 14 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering grigoriev... 10 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering kara-batkak... 20 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering kon-chukurbashi... 14 scene(s) found, including uninteresting ones... 2 excluding them.
 Looking for Landsat scenes covering kyzylsu... 8 scene(s) found, including uninteresting ones... 1 excluding them.
 Looking for Landsat scenes covering sangvor... 8 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering sary-tor... 9 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering turgen_ak-suu... 18 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering tuyuksu... 9 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering yakarcha... 6 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering sary-tor... 10 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering turgen_ak-suu... 20 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering tuyuksu... 10 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering yakarcha... 6 scene(s) found, including uninteresting ones... 0 excluding them.
 Looking for Landsat scenes covering zulmart... 9 scene(s) found, including uninteresting ones... 1 excluding them.
-No new Landsat scenes to process.
+
+We have 2 unique scenes to download and process.
+
+Working on LC81500302025162LGN00 (1/2)...
+Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
+Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
+
+Working on LC81500332025162LGN00 (2/2)...
+Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
+Checking for data... Nope. Moving to the next location...
 Writing Landsat 8/9 tile info file...
-Finished at 2025-06-11 15:31:04 +0200
+Removing 2 batysh_sook image(s) older than 31 days...
+Removing 1 gl354 image(s) older than 31 days...
+Removing 1 gl599 image(s) older than 31 days...
+Removing 2 grigoriev image(s) older than 31 days...
+Removing 1 kara-batkak image(s) older than 31 days...
+Removing 1 sary-tor image(s) older than 31 days...
+Removing 1 turgen_ak-suu image(s) older than 31 days...
+Removing 2 tuyuksu image(s) older than 31 days...
+Finished at 2025-06-12 03:36:49 +0200
