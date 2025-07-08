@@ -19,10 +19,10 @@
 <body>
 
     <button onclick="toggle_contours()" class="text-sansserif">Toggle contours</button>
-    <form id="geotiff16_dl" style="display:inline" action="../imagery/tuyuksu/v1/2025-07-06_ls.tif" method="get">
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/tuyuksu/v1/2025-07-08_s2.tif" method="get">
         <button class="text-sansserif">Download 16-bit RGB Geotiff</button>
     </form>
-    <form id="geotiff8_dl" style="display:inline" action="../imagery/tuyuksu/v2/2025-07-06_ls_pan.tif" method="get">
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/tuyuksu/v2/2025-07-08_s2_pan.tif" method="get">
         <button class="text-sansserif">Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
@@ -31,7 +31,7 @@
 
     
     <p>
-    <div id="img_title" class="text-sansserif"><b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 July 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b></div>
+    <div id="img_title" class="text-sansserif"><b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 July 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
 
     <p>
       <button id="btn_prev" onclick="prev()" class="text-sansserif">Older image</button>
@@ -39,7 +39,7 @@
     </p>
 
     <p>
-    <img src="../imagery/tuyuksu/v3/2025-07-06_ls.jpg" alt="" style="width:472px;">
+    <img src="../imagery/tuyuksu/v3/2025-07-08_s2.jpg" alt="" style="width:472px;">
     </p>
     
     <p class="text-sansserif">
@@ -48,8 +48,8 @@
 
     <script>
         var img_basedir = "../imagery/tuyuksu"
-        var img_names = ["2025-06-08_s2.jpg", "2025-06-10_s2.jpg", "2025-06-12_ls.jpg", "2025-06-13_s2.jpg", "2025-06-15_s2.jpg", "2025-06-18_s2.jpg", "2025-06-20_ls.jpg", "2025-06-20_s2.jpg", "2025-06-22_s2.jpg", "2025-06-23_s2.jpg", "2025-06-25_s2.jpg", "2025-06-28_ls.jpg", "2025-06-28_s2.jpg", "2025-06-30_s2.jpg", "2025-07-03_s2.jpg", "2025-07-05_s2.jpg", "2025-07-06_ls.jpg"]
-        var img_titles = ["<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;10 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;12 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;13 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;15 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;18 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;20 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;20 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;22 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;23 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;25 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;30 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 July 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;05 July 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 July 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>"]
+        var img_names = ["2025-06-08_s2.jpg", "2025-06-10_s2.jpg", "2025-06-12_ls.jpg", "2025-06-13_s2.jpg", "2025-06-15_s2.jpg", "2025-06-18_s2.jpg", "2025-06-20_ls.jpg", "2025-06-20_s2.jpg", "2025-06-22_s2.jpg", "2025-06-23_s2.jpg", "2025-06-25_s2.jpg", "2025-06-28_ls.jpg", "2025-06-28_s2.jpg", "2025-06-30_s2.jpg", "2025-07-03_s2.jpg", "2025-07-05_s2.jpg", "2025-07-06_ls.jpg", "2025-07-08_s2.jpg"]
+        var img_titles = ["<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;10 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;12 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;13 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;15 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;18 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;20 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;20 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;22 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;23 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;25 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;30 June 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 July 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;05 July 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 July 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Tuyuksu (KZ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 July 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
     </script>
     <script src="script_generic.js"></script>
 	
