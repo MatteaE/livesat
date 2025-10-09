@@ -19,10 +19,10 @@
 <body>
 
     <button onclick="toggle_contours()" class="text-sansserif">Toggle contours</button>
-    <form id="geotiff16_dl" style="display:inline" action="../imagery/golubin/v1/2025-09-16_s2.tif" method="get">
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/golubin/v1/2025-10-09_s2.tif" method="get">
         <button class="text-sansserif">Download 16-bit RGB Geotiff</button>
     </form>
-    <form id="geotiff8_dl" style="display:inline" action="../imagery/golubin/v2/2025-09-16_s2_pan.tif" method="get">
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/golubin/v2/2025-10-09_s2_pan.tif" method="get">
         <button class="text-sansserif">Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
@@ -31,7 +31,7 @@
 
     
     <p>
-    <div id="img_title" class="text-sansserif"><b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
+    <div id="img_title" class="text-sansserif"><b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;09 October 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
 
     <p>
       <button id="btn_prev" onclick="prev()" class="text-sansserif">Older image</button>
@@ -39,7 +39,7 @@
     </p>
 
     <p>
-    <img src="../imagery/golubin/v3/2025-09-16_s2.jpg" alt="" style="width:400px;">
+    <img src="../imagery/golubin/v3/2025-10-09_s2.jpg" alt="" style="width:400px;">
     </p>
     
     <p class="text-sansserif">
@@ -48,8 +48,8 @@
 
     <script>
         var img_basedir = "../imagery/golubin"
-        var img_names = ["2025-08-17_s2.jpg", "2025-08-20_s2.jpg", "2025-08-21_ls.jpg", "2025-08-22_s2.jpg", "2025-08-25_s2.jpg", "2025-08-27_s2.jpg", "2025-08-29_ls.jpg", "2025-08-30_s2.jpg", "2025-09-01_s2.jpg", "2025-09-03_s2.jpg", "2025-09-06_ls.jpg", "2025-09-06_s2.jpg", "2025-09-09_s2.jpg", "2025-09-14_ls.jpg", "2025-09-14_s2.jpg", "2025-09-16_s2.jpg"]
-        var img_titles = ["<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;17 August 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;20 August 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 August 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;22 August 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;25 August 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;27 August 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;29 August 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;30 August 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;01 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;09 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;14 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;14 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
+        var img_names = ["2025-09-09_s2.jpg", "2025-09-14_ls.jpg", "2025-09-14_s2.jpg", "2025-09-16_s2.jpg", "2025-09-19_s2.jpg", "2025-09-21_s2.jpg", "2025-09-22_ls.jpg", "2025-09-23_s2.jpg", "2025-09-24_s2.jpg", "2025-09-26_s2.jpg", "2025-09-29_s2.jpg", "2025-09-30_ls.jpg", "2025-10-01_s2.jpg", "2025-10-04_s2.jpg", "2025-10-06_s2.jpg", "2025-10-08_ls.jpg", "2025-10-09_s2.jpg"]
+        var img_titles = ["<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;09 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;14 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;14 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;19 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;22 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;23 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;24 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;26 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;29 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;30 September 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;01 October 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;04 October 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 October 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 October 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Golubin (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;09 October 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
     </script>
     <script src="script_generic.js"></script>
 	
