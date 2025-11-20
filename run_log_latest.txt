@@ -1,4 +1,4 @@
-Started at 2025-11-20 03:30:20 +0100
+Started at 2025-11-20 10:09:07 +0100
 Reading locations file...
 Processing Sentinel-2...
 10 tiles to examine...
@@ -33,15 +33,6 @@ Looking for Landsat scenes covering turgen_ak-suu... 18 scene(s) found, includin
 Looking for Landsat scenes covering tuyuksu... 9 scene(s) found, including uninteresting ones... 0 excluding them.
 Looking for Landsat scenes covering yakarcha... 6 scene(s) found, including uninteresting ones... 0 excluding them.
 Looking for Landsat scenes covering zulmart... 8 scene(s) found, including uninteresting ones... 1 excluding them.
-
-We have 2 unique scenes to download and process.
-
-Working on LC81500302025322LGN00 (1/2)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81500332025322LGN00 (2/2)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Nope. Moving to the next location...
+No new Landsat scenes to process.
 Writing Landsat 8/9 tile info file...
-Finished at 2025-11-20 03:36:46 +0100
+Finished at 2025-11-20 10:09:52 +0100
