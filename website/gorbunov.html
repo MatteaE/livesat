@@ -19,10 +19,10 @@
 <body>
 
     <button onclick="toggle_contours()" class="text-sansserif">Toggle contours</button>
-    <form id="geotiff16_dl" style="display:inline" action="../imagery/gorbunov/v1/2025-11-28_s2.tif" method="get">
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/gorbunov/v1/2025-12-03_s2.tif" method="get">
         <button class="text-sansserif">Download 16-bit RGB Geotiff</button>
     </form>
-    <form id="geotiff8_dl" style="display:inline" action="../imagery/gorbunov/v2/2025-11-28_s2_pan.tif" method="get">
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/gorbunov/v2/2025-12-03_s2_pan.tif" method="get">
         <button class="text-sansserif">Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
@@ -31,7 +31,7 @@
 
     
     <p>
-    <div id="img_title" class="text-sansserif"><b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
+    <div id="img_title" class="text-sansserif"><b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b></div>
 
     <p>
       <button id="btn_prev" onclick="prev()" class="text-sansserif">Older image</button>
@@ -39,7 +39,7 @@
     </p>
 
     <p>
-    <img src="../imagery/gorbunov/v3/2025-11-28_s2.jpg" alt="" style="width:502px;">
+    <img src="../imagery/gorbunov/v3/2025-12-03_s2.jpg" alt="" style="width:502px;">
     </p>
     
     <p class="text-sansserif">
@@ -48,8 +48,8 @@
 
     <script>
         var img_basedir = "../imagery/gorbunov"
-        var img_names = ["2025-11-03_s2.jpg", "2025-11-05_s2.jpg", "2025-11-08_ls.jpg", "2025-11-08_s2.jpg", "2025-11-09_ls.jpg", "2025-11-13_s2.jpg", "2025-11-16_ls.jpg", "2025-11-17_ls.jpg", "2025-11-18_s2.jpg", "2025-11-23_s2.jpg", "2025-11-24_ls.jpg", "2025-11-25_ls.jpg", "2025-11-25_s2.jpg", "2025-11-28_s2.jpg"]
-        var img_titles = ["<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;05 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;09 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;13 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;17 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;18 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;23 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;24 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;25 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;25 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
+        var img_names = ["2025-11-03_s2.jpg", "2025-11-05_s2.jpg", "2025-11-08_ls.jpg", "2025-11-08_s2.jpg", "2025-11-09_ls.jpg", "2025-11-13_s2.jpg", "2025-11-16_ls.jpg", "2025-11-17_ls.jpg", "2025-11-18_s2.jpg", "2025-11-23_s2.jpg", "2025-11-24_ls.jpg", "2025-11-25_ls.jpg", "2025-11-25_s2.jpg", "2025-11-28_s2.jpg", "2025-12-03_s2.jpg"]
+        var img_titles = ["<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;05 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;08 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;09 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;13 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;16 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;17 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;18 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;23 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;24 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;25 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;25 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;28 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Gorbunov Station (TJ)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;03 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>"]
     </script>
     <script src="script_generic.js"></script>
 	
