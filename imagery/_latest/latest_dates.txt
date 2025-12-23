@@ -7,8 +7,8 @@ gl457            2025-12-20  s2
 gl599            2025-12-21  ls
 golubin          2025-12-20  s2
 gorbunov         2025-12-19  ls
-grigoriev        2025-12-21  ls
-kara-batkak      2025-12-19  s2
+grigoriev        2025-12-22  s2
+kara-batkak      2025-12-22  s2
 kon-chukurbashi  2025-12-20  s2
 kyzylsu          2025-12-21  s2
 sangvor          2025-12-21  s2
