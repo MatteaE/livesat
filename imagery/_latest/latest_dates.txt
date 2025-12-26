@@ -1,5 +1,5 @@
 abramov          2025-12-23  s2
-barkrak          2025-12-21  s2
+barkrak          2025-12-25  ls
 batysh_sook      2025-12-22  s2
 ggp              2025-12-24  s2
 gl354            2025-12-22  s2
