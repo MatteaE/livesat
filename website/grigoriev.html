@@ -19,10 +19,10 @@
 <body>
 
     <button onclick="toggle_contours()" class="text-sansserif">Toggle contours</button>
-    <form id="geotiff16_dl" style="display:inline" action="../imagery/grigoriev/v1/2025-12-29_ls.tif" method="get">
+    <form id="geotiff16_dl" style="display:inline" action="../imagery/grigoriev/v1/2025-12-30_ls.tif" method="get">
         <button class="text-sansserif">Download 16-bit RGB Geotiff</button>
     </form>
-    <form id="geotiff8_dl" style="display:inline" action="../imagery/grigoriev/v2/2025-12-29_ls_pan.tif" method="get">
+    <form id="geotiff8_dl" style="display:inline" action="../imagery/grigoriev/v2/2025-12-30_ls_pan.tif" method="get">
         <button class="text-sansserif">Download 8-bit grayscale Geotiff</button>
     </form>
     <form id="back_to_homepage" style="display:inline" action="../index.html" method="get">
@@ -31,7 +31,7 @@
 
     
     <p>
-    <div id="img_title" class="text-sansserif"><b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;29 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b></div>
+    <div id="img_title" class="text-sansserif"><b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;30 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b></div>
 
     <p>
       <button id="btn_prev" onclick="prev()" class="text-sansserif">Older image</button>
@@ -39,7 +39,7 @@
     </p>
 
     <p>
-    <img src="../imagery/grigoriev/v3/2025-12-29_ls.jpg" alt="" style="width:234px;">
+    <img src="../imagery/grigoriev/v3/2025-12-30_ls.jpg" alt="" style="width:282px;">
     </p>
     
     <p class="text-sansserif">
@@ -48,8 +48,8 @@
 
     <script>
         var img_basedir = "../imagery/grigoriev"
-        var img_names = ["2025-11-29_s2.jpg", "2025-12-02_s2.jpg", "2025-12-05_ls.jpg", "2025-12-06_ls.jpg", "2025-12-07_s2.jpg", "2025-12-12_s2.jpg", "2025-12-13_ls.jpg", "2025-12-14_ls.jpg", "2025-12-17_s2.jpg", "2025-12-19_s2.jpg", "2025-12-21_ls.jpg", "2025-12-22_ls.jpg", "2025-12-22_s2.jpg", "2025-12-27_s2.jpg", "2025-12-29_ls.jpg"]
-        var img_titles = ["<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;29 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;02 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;05 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;07 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;12 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;13 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;14 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;17 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;19 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;22 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;22 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;27 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;29 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>"]
+        var img_names = ["2025-11-29_s2.jpg", "2025-12-02_s2.jpg", "2025-12-05_ls.jpg", "2025-12-06_ls.jpg", "2025-12-07_s2.jpg", "2025-12-12_s2.jpg", "2025-12-13_ls.jpg", "2025-12-14_ls.jpg", "2025-12-17_s2.jpg", "2025-12-19_s2.jpg", "2025-12-21_ls.jpg", "2025-12-22_ls.jpg", "2025-12-22_s2.jpg", "2025-12-27_s2.jpg", "2025-12-29_ls.jpg", "2025-12-30_ls.jpg"]
+        var img_titles = ["<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;29 November 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;02 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;05 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;06 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;07 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;12 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;13 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;14 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;17 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;19 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;21 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;22 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;22 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;27 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Sentinel-2</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;29 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>", "<b>Grigoriev (KG)&nbsp;&nbsp;&mdash;&nbsp;&nbsp;30 December 2025&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Landsat 8/9</b>"]
     </script>
     <script src="script_generic.js"></script>
 	
