@@ -3,7 +3,7 @@ barkrak          2026-02-19  s2
 batysh_sook      2026-02-16  ls
 ggp              2026-02-19  s2
 gl354            2026-02-16  ls
-gl457            2026-02-21  ls
+gl457            2026-02-21  s2
 gl599            2026-02-22  ls
 golubin          2026-02-21  ls
 gorbunov         2026-02-21  ls
