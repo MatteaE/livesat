@@ -13,7 +13,7 @@ kon-chukurbashi  2026-02-23  s2
 kyzylsu          2026-02-24  s2
 sangvor          2026-02-24  s2
 sary-tor         2026-02-24  ls
-turgen_ak-suu    2026-02-24  ls
+turgen_ak-suu    2026-02-25  s2
 tuyuksu          2026-02-23  ls
 yakarcha         2026-02-24  s2
 zulmart          2026-02-21  s2
