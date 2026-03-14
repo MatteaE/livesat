@@ -14,6 +14,6 @@ kyzylsu          2026-03-08  ls
 sangvor          2026-03-08  ls
 sary-tor         2026-03-12  s2
 turgen_ak-suu    2026-03-12  ls
-tuyuksu          2026-03-11  ls
+tuyuksu          2026-03-12  s2
 yakarcha         2026-03-06  ls
 zulmart          2026-03-09  ls
