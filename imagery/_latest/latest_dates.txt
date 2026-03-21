@@ -1,4 +1,4 @@
-abramov          2026-03-16  s2
+abramov          2026-03-21  s2
 barkrak          2026-03-15  ls
 batysh_sook      2026-03-20  ls
 ggp              2026-03-16  s2
@@ -6,11 +6,11 @@ gl354            2026-03-20  ls
 gl457            2026-03-18  s2
 gl599            2026-03-19  ls
 golubin          2026-03-17  ls
-gorbunov         2026-03-17  ls
+gorbunov         2026-03-18  s2
 grigoriev        2026-03-20  ls
 kara-batkak      2026-03-20  ls
 kon-chukurbashi  2026-03-17  ls
-kyzylsu          2026-03-16  s2
+kyzylsu          2026-03-21  s2
 sangvor          2026-03-16  s2
 sary-tor         2026-03-20  ls
 turgen_ak-suu    2026-03-20  ls
