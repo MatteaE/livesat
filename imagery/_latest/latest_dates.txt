@@ -9,7 +9,7 @@ golubin          2026-03-30  s2
 gorbunov         2026-03-28  s2
 grigoriev        2026-03-28  ls
 kara-batkak      2026-03-28  ls
-kon-chukurbashi  2026-03-28  s2
+kon-chukurbashi  2026-04-01  s2
 kyzylsu          2026-03-28  s2
 sangvor          2026-03-28  s2
 sary-tor         2026-03-28  ls
