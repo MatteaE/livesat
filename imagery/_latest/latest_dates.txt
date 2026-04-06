@@ -1,7 +1,7 @@
 abramov          2026-04-05  s2
 barkrak          2026-04-05  s2
 batysh_sook      2026-04-05  ls
-ggp              2026-04-03  s2
+ggp              2026-04-05  s2
 gl354            2026-04-05  ls
 gl457            2026-04-04  s2
 gl599            2026-04-04  s2
@@ -13,7 +13,7 @@ kon-chukurbashi  2026-04-04  s2
 kyzylsu          2026-04-05  s2
 sangvor          2026-04-05  s2
 sary-tor         2026-04-05  ls
-turgen_ak-suu    2026-04-05  ls
+turgen_ak-suu    2026-04-06  s2
 tuyuksu          2026-04-04  s2
-yakarcha         2026-04-03  s2
+yakarcha         2026-04-05  s2
 zulmart          2026-04-04  s2
