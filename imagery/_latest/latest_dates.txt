@@ -5,11 +5,11 @@ ggp              2026-04-08  s2
 gl354            2026-04-08  s2
 gl457            2026-04-07  s2
 gl599            2026-04-04  s2
-golubin          2026-04-07  s2
+golubin          2026-04-09  s2
 gorbunov         2026-04-07  s2
 grigoriev        2026-04-08  s2
 kara-batkak      2026-04-08  s2
-kon-chukurbashi  2026-04-07  s2
+kon-chukurbashi  2026-04-09  s2
 kyzylsu          2026-04-07  s2
 sangvor          2026-04-07  s2
 sary-tor         2026-04-08  s2
