@@ -3,13 +3,13 @@ barkrak          2026-04-17  s2
 batysh_sook      2026-04-16  s2
 ggp              2026-04-18  s2
 gl354            2026-04-16  s2
-gl457            2026-04-18  ls
+gl457            2026-04-19  s2
 gl599            2026-04-14  s2
 golubin          2026-04-18  ls
 gorbunov         2026-04-18  ls
 grigoriev        2026-04-16  s2
 kara-batkak      2026-04-16  s2
-kon-chukurbashi  2026-04-18  ls
+kon-chukurbashi  2026-04-19  s2
 kyzylsu          2026-04-17  s2
 sangvor          2026-04-17  s2
 sary-tor         2026-04-16  s2
