@@ -4,12 +4,12 @@ batysh_sook      2026-05-01  s2
 ggp              2026-05-05  s2
 gl354            2026-05-01  s2
 gl457            2026-05-04  s2
-gl599            2026-05-04  s2
+gl599            2026-05-05  ls
 golubin          2026-05-04  s2
 gorbunov         2026-05-04  ls
 grigoriev        2026-05-01  s2
 kara-batkak      2026-05-01  s2
-kon-chukurbashi  2026-05-04  s2
+kon-chukurbashi  2026-05-05  ls
 kyzylsu          2026-05-05  s2
 sangvor          2026-05-05  s2
 sary-tor         2026-05-01  s2
