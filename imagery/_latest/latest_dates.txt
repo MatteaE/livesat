@@ -1,7 +1,7 @@
 abramov          2026-05-05  s2
 barkrak          2026-05-05  s2
 batysh_sook      2026-05-07  ls
-ggp              2026-05-05  s2
+ggp              2026-05-09  ls
 gl354            2026-05-07  ls
 gl457            2026-05-04  s2
 gl599            2026-05-06  ls
@@ -15,5 +15,5 @@ sangvor          2026-05-05  s2
 sary-tor         2026-05-07  ls
 turgen_ak-suu    2026-05-07  ls
 tuyuksu          2026-05-06  s2
-yakarcha         2026-05-05  s2
+yakarcha         2026-05-09  ls
 zulmart          2026-05-04  ls
