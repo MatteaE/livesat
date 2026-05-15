@@ -1,13 +1,13 @@
 abramov          2026-05-14  s2
 barkrak          2026-05-10  s2
-batysh_sook      2026-05-11  s2
+batysh_sook      2026-05-14  ls
 ggp              2026-05-13  s2
 gl354            2026-05-11  s2
 gl457            2026-05-14  s2
 gl599            2026-05-14  s2
 golubin          2026-05-14  s2
 gorbunov         2026-05-14  s2
-grigoriev        2026-05-11  s2
+grigoriev        2026-05-14  ls
 kara-batkak      2026-05-11  s2
 kon-chukurbashi  2026-05-14  s2
 kyzylsu          2026-05-14  s2
