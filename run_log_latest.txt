@@ -1,4 +1,4 @@
-Started at 2026-07-01 15:25:47 +0200
+Started at 2026-07-01 15:30:17 +0200
 Reading locations file...
 Processing Sentinel-2...
 10 tiles to examine...
@@ -33,4 +33,4 @@ Looking for Landsat scenes covering turgen_ak-suu... Landsat search WARNING: une
 Looking for Landsat scenes covering tuyuksu... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
 Looking for Landsat scenes covering yakarcha... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
 Looking for Landsat scenes covering zulmart... Landsat search WARNING: unexpected status code  500 -- giving up on this search for now.None found over the period.
-Finished at 2026-07-01 15:26:41 +0200
+Finished at 2026-07-01 15:31:06 +0200
