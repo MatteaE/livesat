@@ -1,13 +1,9 @@
-Started at 2026-10-07 11:15:41 +0200
+Started at 2026-10-26 09:44:49 +0100
 Reading locations file...
 Processing Sentinel-2...
 10 tiles to examine...
 Checking Sentinel-2 tile 1 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
@@ -18,34 +14,10 @@ Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Nope. Moving to the next location...
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking Sentinel-2 tile 2 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 2 of 10... Checking for data... Nope. Moving to the next location...
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Nope. Moving to the next location...
 Checking Sentinel-2 tile 3 of 10... Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Nope. Moving to the next location...
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Nope. Moving to the next location...
@@ -63,49 +35,7 @@ Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Checking for data... Nope. Moving to the next location...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Checking for data... Nope. Moving to the next location...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Checking for data... Nope. Moving to the next location...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
 Checking Sentinel-2 tile 4 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
@@ -114,26 +44,11 @@ Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 5 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking Sentinel-2 tile 6 of 10... Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 6 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 7 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Nope. Moving to the next location...
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 8 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
@@ -142,104 +57,42 @@ Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Nope. Moving to the next location...
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 9 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking Sentinel-2 tile 10 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 10 of 10... Checking for data... Nope. Moving to the next location...
+Checking for data... Nope. Moving to the next location...
 Checking for data... Nope. Moving to the next location...
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Nope. Moving to the next location...
 Writing Sentinel-2 tile info file...
 Processing Landsat 8/9...
-[1] 16
-Looking for Landsat scenes covering abramov... 166 scene(s) found, including uninteresting ones... 4 excluding them.
-Looking for Landsat scenes covering barkrak... 146 scene(s) found, including uninteresting ones... 4 excluding them.
-Looking for Landsat scenes covering batysh_sook... 95 scene(s) found, including uninteresting ones... 8 excluding them.
-Looking for Landsat scenes covering ggp... 75 scene(s) found, including uninteresting ones... 4 excluding them.
-Looking for Landsat scenes covering gl354... 95 scene(s) found, including uninteresting ones... 4 excluding them.
-Looking for Landsat scenes covering gl457... 91 scene(s) found, including uninteresting ones... 4 excluding them.
-Looking for Landsat scenes covering gl599... 175 scene(s) found, including uninteresting ones... 8 excluding them.
-Looking for Landsat scenes covering golubin... 169 scene(s) found, including uninteresting ones... 4 excluding them.
-Looking for Landsat scenes covering gorbunov... 87 scene(s) found, including uninteresting ones... 8 excluding them.
-Looking for Landsat scenes covering grigoriev... 95 scene(s) found, including uninteresting ones... 8 excluding them.
-Looking for Landsat scenes covering kara-batkak... 186 scene(s) found, including uninteresting ones... 8 excluding them.
-Looking for Landsat scenes covering kon-chukurbashi... 132 scene(s) found, including uninteresting ones... 8 excluding them.
-Looking for Landsat scenes covering kyzylsu... 83 scene(s) found, including uninteresting ones... 4 excluding them.
-Looking for Landsat scenes covering sangvor... 83 scene(s) found, including uninteresting ones... 4 excluding them.
-Looking for Landsat scenes covering sary-tor... 95 scene(s) found, including uninteresting ones... 4 excluding them.
-Looking for Landsat scenes covering turgen_ak-suu... 190 scene(s) found, including uninteresting ones... 4 excluding them.
-Looking for Landsat scenes covering tuyuksu... 91 scene(s) found, including uninteresting ones... 4 excluding them.
-Looking for Landsat scenes covering yakarcha... 75 scene(s) found, including uninteresting ones... 4 excluding them.
-Looking for Landsat scenes covering zulmart... 87 scene(s) found, including uninteresting ones... 4 excluding them.
-[1] 44
+Looking for Landsat scenes covering abramov... 32 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering barkrak... 29 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering batysh_sook... 18 scene(s) found, including uninteresting ones... 2 excluding them.
+Looking for Landsat scenes covering ggp... 15 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl354... 18 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering gl457... 17 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl599... 32 scene(s) found, including uninteresting ones... 2 excluding them.
+Looking for Landsat scenes covering golubin... 30 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gorbunov... 16 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering grigoriev... 18 scene(s) found, including uninteresting ones... 2 excluding them.
+Looking for Landsat scenes covering kara-batkak... 35 scene(s) found, including uninteresting ones... 2 excluding them.
+Looking for Landsat scenes covering kon-chukurbashi... 26 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering kyzylsu... 16 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering sangvor... 16 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering sary-tor... 18 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering turgen_ak-suu... 36 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering tuyuksu... 17 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering yakarcha... 15 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering zulmart... 16 scene(s) found, including uninteresting ones... 0 excluding them.
 
-We have 44 unique scenes to download and process.
+We have 6 unique scenes to download and process.
 
-Working on LC81520332026275LGN00 (1/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- 
-Working on LC81520332026275LGN00 (1/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91520332026267LGN00 (2/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81520332026259LGN00 (3/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91520332026251LGN00 (4/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91530312026274LGN00 (5/44)...
+Working on LC81530312026298LGN00 (1/6)...
 Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 
-Working on LC81530312026266LGN00 (6/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91530312026258LGN00 (7/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81530312026250LGN00 (8/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- Error during download
-
-Problem with the download, skipping for now...
-WARNING: download failed. Cleaning up and giving up for now...
-Giving up on the whole scene for this time...
-
-Working on LC81480312026279LGN00 (9/44)...
+Working on LC81480312026295LGN00 (2/6)...
 Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
@@ -252,199 +105,43 @@ Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 
-Working on LC91490312026278LGN00 (10/44)...
+Working on LC91490312026294LGN00 (3/6)...
 Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Nope. Moving to the next location...
 
-Working on LC91480312026271LGN00 (11/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81490312026270LGN00 (12/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81480312026263LGN00 (13/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91490312026262LGN00 (14/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91480312026255LGN00 (15/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81490312026254LGN00 (16/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81540332026273LGN00 (17/44)...
+Working on LC91490302026294LGN00 (4/6)...
 Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 
-Working on LC91540332026265LGN00 (18/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81540332026257LGN00 (19/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91540332026249LGN00 (20/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91510342026276LGN00 (21/44)...
+Working on LC81500302026293LGN00 (5/6)...
 Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 
-Working on LC81510342026268LGN00 (22/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91510342026260LGN00 (23/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81510342026252LGN00 (24/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91490302026278LGN00 (25/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81500302026277LGN00 (26/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81490302026270LGN00 (27/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91500302026269LGN01 (28/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91490302026262LGN00 (29/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81500302026261LGN00 (30/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81490302026254LGN00 (31/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91500302026253LGN00 (32/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91510302026276LGN00 (33/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81510302026268LGN00 (34/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91510302026260LGN00 (35/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81510302026252LGN00 (36/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91510332026276LGN00 (37/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81510332026268LGN00 (38/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC91510332026260LGN00 (39/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81510332026252LGN00 (40/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81500332026277LGN00 (41/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Nope. Moving to the next location...
-
-Working on LC91500332026269LGN01 (42/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Nope. Moving to the next location...
-
-Working on LC81500332026261LGN00 (43/44)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Nope. Moving to the next location...
-
-Working on LC91500332026253LGN00 (44/44)...
+Working on LC81500332026293LGN00 (6/6)...
 Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
 Checking for data... Nope. Moving to the next location...
 Writing Landsat 8/9 tile info file...
-Finished at 2026-10-07 14:25:35 +0200
+Removing 19 abramov image(s) older than 31 days...
+Removing 11 barkrak image(s) older than 31 days...
+Removing 12 batysh_sook image(s) older than 31 days...
+Removing 19 ggp image(s) older than 31 days...
+Removing 10 gl354 image(s) older than 31 days...
+Removing 18 gl457 image(s) older than 31 days...
+Removing 13 gl599 image(s) older than 31 days...
+Removing 18 golubin image(s) older than 31 days...
+Removing 14 gorbunov image(s) older than 31 days...
+Removing 12 grigoriev image(s) older than 31 days...
+Removing 12 kara-batkak image(s) older than 31 days...
+Removing 18 kon-chukurbashi image(s) older than 31 days...
+Removing 19 kyzylsu image(s) older than 31 days...
+Removing 12 sangvor image(s) older than 31 days...
+Removing 10 sary-tor image(s) older than 31 days...
+Removing 10 turgen_ak-suu image(s) older than 31 days...
+Removing 17 tuyuksu image(s) older than 31 days...
+Removing 19 yakarcha image(s) older than 31 days...
+Removing 11 zulmart image(s) older than 31 days...
+Finished at 2026-10-26 10:34:08 +0100
