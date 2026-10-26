@@ -1,22 +1,9 @@
-Started at 2026-10-26 09:44:49 +0100
+Started at 2026-10-26 15:30:23 +0100
 Reading locations file...
 Processing Sentinel-2...
 10 tiles to examine...
-Checking Sentinel-2 tile 1 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking Sentinel-2 tile 2 of 10... Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Nope. Moving to the next location...
+Checking Sentinel-2 tile 1 of 10... No new scenes found. Moving on...
+Checking Sentinel-2 tile 2 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 3 of 10... Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Nope. Moving to the next location...
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
@@ -26,122 +13,50 @@ Checking for data... Nope. Moving to the next location...
 Checking for data... Nope. Moving to the next location...
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Nope. Moving to the next location...
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking Sentinel-2 tile 4 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 4 of 10... No new scenes found. Moving on...
 Checking Sentinel-2 tile 5 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 6 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 7 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking Sentinel-2 tile 8 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
 Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking Sentinel-2 tile 9 of 10... Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
-Checking Sentinel-2 tile 10 of 10... Checking for data... Nope. Moving to the next location...
-Checking for data... Nope. Moving to the next location...
-Checking for data... Nope. Moving to the next location...
-Checking for data... Yes! Processing... v1... v2... v3... v4... Done.
+Checking Sentinel-2 tile 9 of 10... No new scenes found. Moving on...
+Checking Sentinel-2 tile 10 of 10... No new scenes found. Moving on...
 Writing Sentinel-2 tile info file...
 Processing Landsat 8/9...
-Looking for Landsat scenes covering abramov... 32 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering barkrak... 29 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering batysh_sook... 18 scene(s) found, including uninteresting ones... 2 excluding them.
-Looking for Landsat scenes covering ggp... 15 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering gl354... 18 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering gl457... 17 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering gl599... 32 scene(s) found, including uninteresting ones... 2 excluding them.
-Looking for Landsat scenes covering golubin... 30 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering gorbunov... 16 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering grigoriev... 18 scene(s) found, including uninteresting ones... 2 excluding them.
-Looking for Landsat scenes covering kara-batkak... 35 scene(s) found, including uninteresting ones... 2 excluding them.
-Looking for Landsat scenes covering kon-chukurbashi... 26 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering kyzylsu... 16 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering sangvor... 16 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering sary-tor... 18 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering turgen_ak-suu... 36 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering tuyuksu... 17 scene(s) found, including uninteresting ones... 1 excluding them.
-Looking for Landsat scenes covering yakarcha... 15 scene(s) found, including uninteresting ones... 0 excluding them.
-Looking for Landsat scenes covering zulmart... 16 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering abramov... 40 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering barkrak... 35 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering batysh_sook... 22 scene(s) found, including uninteresting ones... 2 excluding them.
+Looking for Landsat scenes covering ggp... 18 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering gl354... 22 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering gl457... 21 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gl599... 40 scene(s) found, including uninteresting ones... 2 excluding them.
+Looking for Landsat scenes covering golubin... 38 scene(s) found, including uninteresting ones... 0 excluding them.
+Looking for Landsat scenes covering gorbunov... 20 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering grigoriev... 22 scene(s) found, including uninteresting ones... 2 excluding them.
+Looking for Landsat scenes covering kara-batkak... 43 scene(s) found, including uninteresting ones... 2 excluding them.
+Looking for Landsat scenes covering kon-chukurbashi... 31 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering kyzylsu... 20 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering sangvor... 20 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering sary-tor... 22 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering turgen_ak-suu... 44 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering tuyuksu... 21 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering yakarcha... 18 scene(s) found, including uninteresting ones... 1 excluding them.
+Looking for Landsat scenes covering zulmart... 20 scene(s) found, including uninteresting ones... 0 excluding them.
 
-We have 6 unique scenes to download and process.
+We have 2 unique scenes to download and process.
 
-Working on LC81530312026298LGN00 (1/6)...
+Working on LC91520332026299LGN00 (1/2)...
 Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81480312026295LGN00 (2/6)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 Location and scene EPSG do not match. I am reprojecting the location EPSG.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 
-Working on LC91490312026294LGN00 (3/6)...
+Working on LC91540332026297LGN00 (2/2)...
 Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
 Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Location and scene EPSG do not match. I am reprojecting the location EPSG.
-Checking for data... Nope. Moving to the next location...
-
-Working on LC91490302026294LGN00 (4/6)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81500302026293LGN00 (5/6)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Yes! Processing... Cropped... v1... Pansharpened... v2... v3... v4... Done.
-
-Working on LC81500332026293LGN00 (6/6)...
-Downloading 4 immediately available bands: 1 -- 2 -- 3 -- 4 -- Download completed.
-Checking for data... Nope. Moving to the next location...
 Writing Landsat 8/9 tile info file...
-Removing 19 abramov image(s) older than 31 days...
-Removing 11 barkrak image(s) older than 31 days...
-Removing 12 batysh_sook image(s) older than 31 days...
-Removing 19 ggp image(s) older than 31 days...
-Removing 10 gl354 image(s) older than 31 days...
-Removing 18 gl457 image(s) older than 31 days...
-Removing 13 gl599 image(s) older than 31 days...
-Removing 18 golubin image(s) older than 31 days...
-Removing 14 gorbunov image(s) older than 31 days...
-Removing 12 grigoriev image(s) older than 31 days...
-Removing 12 kara-batkak image(s) older than 31 days...
-Removing 18 kon-chukurbashi image(s) older than 31 days...
-Removing 19 kyzylsu image(s) older than 31 days...
-Removing 12 sangvor image(s) older than 31 days...
-Removing 10 sary-tor image(s) older than 31 days...
-Removing 10 turgen_ak-suu image(s) older than 31 days...
-Removing 17 tuyuksu image(s) older than 31 days...
-Removing 19 yakarcha image(s) older than 31 days...
-Removing 11 zulmart image(s) older than 31 days...
-Finished at 2026-10-26 10:34:08 +0100
+Finished at 2026-10-26 15:39:57 +0100
