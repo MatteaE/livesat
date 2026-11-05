@@ -3,9 +3,9 @@ barkrak          2026-11-03  s2
 batysh_sook      2026-11-04  s2
 ggp              2026-11-04  s2
 gl354            2026-11-04  s2
-gl457            2026-11-03  s2
+gl457            2026-11-05  s2
 gl599            2026-11-05  s2
-golubin          2026-11-03  s2
+golubin          2026-11-05  s2
 gorbunov         2026-11-03  s2
 grigoriev        2026-11-04  s2
 kara-batkak      2026-11-04  s2
