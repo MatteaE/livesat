@@ -6,7 +6,7 @@ gl354            2026-11-07  s2
 gl457            2026-11-10  s2
 gl599            2026-11-10  s2
 golubin          2026-11-10  s2
-gorbunov         2026-11-10  s2
+gorbunov         2026-11-11  ls
 grigoriev        2026-11-07  s2
 kara-batkak      2026-11-07  s2
 kon-chukurbashi  2026-11-10  s2
